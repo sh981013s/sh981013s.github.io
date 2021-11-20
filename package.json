@@ -1,10 +1,10 @@
 {
   "name": "gatsby-starter-hoodie",
-  "private": false,
-  "description": "gatsby-starter-hoodie is a gatsby theme developed for developers to write tech blogs.",
-  "homepage": "https://devhudi.github.io/gatsby-starter-hoodie/",
+  "private": true,
+  "description": "Jason Lee's Tech Blog",
+  "homepage": "https://sh981013s.github.io/",
   "version": "0.2.0",
-  "author": "Hudi",
+  "author": "Jason Lee",
   "dependencies": {
     "gatsby": "^2.25.3",
     "gatsby-image": "^2.4.21",

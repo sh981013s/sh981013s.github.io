@@ -1,18 +1,18 @@
 module.exports = {
-  title: "hoodie",
-  description: "Hello :) I'm Hudi who developed gatsby-starter-hoodie theme.",
-  author: "Hudi",
-  siteUrl: "https://devhudi.github.io/gatsby-starter-hoodie/",
+  title: "Jason Lee",
+  description: "Hello :) I'm Jason Lee and currently focusing on React.js.",
+  author: "JasonLee",
+  siteUrl: "https://sh981013s.github.io/",
   links: {
-    github: "https://github.com/devHudi",
-    linkedIn: "https://linkedin.com",
-    facebook: "https://www.facebook.com/profile.php?id=100057724153835",
-    instagram: "https://www.instagram.com/dawn_fromeast/",
-    email: "mailto:devhudi@gmail.com",
+    github: "https://github.com/sh981013s",
+    linkedIn: "https://www.rocketpunch.com/@sh981013s",
+    facebook: "https://www.facebook.com/profile.php?id=100003531717909",
+    instagram: "https://www.instagram.com/hwani_981013/",
+    email: "mailto:sh981013s@gmail.com",
     etc: "https://www.notion.so/Hudi-s-R-sum-0c1d1a1b35284d1eaf05c5bfac4a3cad",
   },
   utterances: {
-    repo: "devHudi/gatsby-starter-hoodie",
+    repo: "sh981013s/sh981013s.github.io",
     type: "pathname",
   },
 }
