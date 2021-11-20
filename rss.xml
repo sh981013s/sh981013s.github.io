@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://sh981013s.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 20 Nov 2021 13:53:57 GMT</lastBuildDate><item><title><![CDATA[🤩 4. Other Tips]]></title><description><![CDATA[How to change the favicon? The favicon is located in . If you replace that image, the favicon will change. If you want to change the name of…]]></description><link>https://sh981013s.github.io/other-tips/</link><guid isPermaLink="false">https://sh981013s.github.io/other-tips/</guid><pubDate>Tue, 04 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;How to change the favicon?&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://sh981013s.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 20 Nov 2021 14:10:05 GMT</lastBuildDate><item><title><![CDATA[전역 공간 사용 최소화]]></title><description><![CDATA[전역공간을 왜 사용하면 안되는지, 혹은 왜 사용을 최소화 해야하는지 알아보자. 전역공간 사용을 최소화해라 라는 말 또한 JS…]]></description><link>https://sh981013s.github.io/no-global/</link><guid isPermaLink="false">https://sh981013s.github.io/no-global/</guid><pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;전역공간을 왜 사용하면 안되는지, 혹은 왜 사용을 최소화 해야하는지 알아보자.&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;전역공간 사용을 최소화해라&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;라는 말 또한 JS 공부를 하며 많이 들었던 내용이고,
+해당 이유에 대해서는 주로&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;경험에 의하여&lt;/li&gt;
+&lt;li&gt;누군가 또는 자바스크립트 생태계때문에&lt;/li&gt;
+&lt;li&gt;강의 혹은 책 에 의하여&lt;/li&gt;
+&lt;li&gt;회사 또는 멘토에 의하여&lt;/li&gt;
+&lt;li&gt;Lint 때문에&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;알 수도 있지만, 경험과 누군가, 책, Lint 때문에 최소화했지만, 해당 이유에 대하여 정확히는 생각해보지 않았었다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;전역공간이란?&lt;/h3&gt;
+&lt;p&gt;전역공간은 말그대로 전역, 최상위 이고,
+대체로 &lt;code class=&quot;language-text&quot;&gt;window&lt;/code&gt; 와 &lt;code class=&quot;language-text&quot;&gt;global&lt;/code&gt;로 나뉜다.
+이유는, 브라우저 환경에서는 window 가 최상위이고,
+node 환경에서는 global 이 최상위이다.&lt;/p&gt;
+&lt;h3&gt;이유에 대한 코드예시&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/da7e0621-40b3-4303-883d-32b1e17a1b67/image.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;우선 하나의 html 파일에서는 less&lt;em&gt;global1.js 와 less&lt;/em&gt;global2.js 를 가져오고 있다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/8652c1a9-3a85-496b-9f64-3eb35039dc29/image.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;global 변수를 선언 및 할당하여 콘솔을 찍어보니 출력이 된다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/f02ed25c-8b9d-4343-9acb-ca7eebf5e71c/image.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;여기서 문제가 첫번째 js file 에서 선언한 변수가 다른 file 에서도 접근이 가능하고, 또한 몽키패치로 인하여 window.~ 로도 접근이 가능해진다는 것이다. 핵심은 파일을 나눈다고 해도, scope 자체가 나누어지지 않는다는것이다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;결론&lt;/h3&gt;
+&lt;p&gt;전역공간 사용을 최소화하여 전역공간을 더럽히지 않아야한다.
+이유는, 어디서나 접근이 가능하고 스코프 분리시에 위험이 따른다.&lt;/p&gt;
+&lt;p&gt;이를 방지하기 위해,
+전역변수를 사용하지 않고 지역변수를 사용하거나,
+window.global 을 조작하지 않을 수 있고.
+const/let 을 사용하는 것만으로도 많은 문제가 해결된다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[var 를 지양하자]]></title><description><![CDATA[자바스크립트를 공부하면서 var 을 지양하고 const/let 을 지향하세요. 라는 말을 수도없이 들었다. 하지만 왜...? const/let 은 ES2015 에 나왔고, 이전에는 어쩔 수 없이 var…]]></description><link>https://sh981013s.github.io/no-var/</link><guid isPermaLink="false">https://sh981013s.github.io/no-var/</guid><pubDate>Fri, 19 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;자바스크립트를 공부하면서&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;var 을 지양하고 const/let 을 지향하세요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;라는 말을 수도없이 들었다. 하지만 왜...?&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;const/let 은 ES2015 에 나왔고, 이전에는 어쩔 수 없이 var를 사용해야만 했다.&lt;/p&gt;
+&lt;p&gt;그렇다면 현시점에서 왜 &lt;code class=&quot;language-text&quot;&gt;const/let&lt;/code&gt; 을 사용해야하나의 핵심은&lt;/p&gt;
+&lt;h4&gt;var 는 함수 스코프,&lt;br/&gt; const/let 은 블록 단위 스코프를 가지기 때문.&lt;/h4&gt;
+&lt;p&gt;이라고 생각한다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3&gt;var 사용 테스트&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/f55540d2-8b6a-41ba-9ada-e42231a12716/image.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;같은 이름으로 선언 및 재할당까지 하고있음에도 에러가 나지 않고 가장 마지막에 할당한 value 가 나왔다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/e86ea9ea-41a2-4cb5-b1d6-16d27c31215f/image.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;이런식으로 순서를 바꾼다면? &lt;br/&gt; null 이 아닌 undefined 가 나오며 편하게 재할당까지 할 수 있고, 재할당을 넘어서 재선언(중복선언) 까지 계속할 수 있다.
+&lt;br/&gt; 이는 매우 편하다고 생각할 수 있는데, 지금의 코드는 겨우 9줄이지만, 코드가 많아진다면? 에 대해 고민해봐야 한다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/77693bf7-86d2-4c47-90b9-7bd66711a480/image.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;위와 같은 코드를 let 으로 바꾼다면 바로 에러가 난다.
+에러 내용을 해석해보면 &apos;이미 선언(Declared)이 되었다고 나온다.&apos;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3&gt;스코프 차이에 따른 예시&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/2f13d7a1-5e75-4375-a272-0a34f869ef08/image.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;위 코드에서 기대효과는 지역만 바뀌기를 바랬는데,
+전역 공간까지 영향을 주었다. 이는 var 는 함수 단위 스코프인데 이건 함수가 아니기 때문이다. 그러므로, 이를 블럭 단위 스코프로 바꾸지 않는 이상 이러한 위험요소를 항상 가지고 있다는 뜻이다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/9458cfb4-ccba-4bb4-acb6-4823d5afe82c/image.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;이를 let 으로 바꾸어보았는데, 굉장히 안전하다.
+블럭 안에서 지역변수의 역활을 굉장히 잘 수행하였다. 그리고 전역공간에서는 합당한 값을 보여주었다.
+위처럼 사람이 생각할 만한 결과를 안전하게 생각하기위해 const/let 을 사용한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[🤩 4. Other Tips]]></title><description><![CDATA[How to change the favicon? The favicon is located in . If you replace that image, the favicon will change. If you want to change the name of…]]></description><link>https://sh981013s.github.io/other-tips/</link><guid isPermaLink="false">https://sh981013s.github.io/other-tips/</guid><pubDate>Tue, 04 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;How to change the favicon?&lt;/h2&gt;
 &lt;p&gt;The favicon is located in &lt;code class=&quot;language-text&quot;&gt;src/images/gatsby-icons.png&lt;/code&gt;. If you replace that image, the favicon will change.&lt;/p&gt;
 &lt;p&gt;If you want to change the name of the favicon, change the &lt;code class=&quot;language-text&quot;&gt;icon&lt;/code&gt; property of &lt;code class=&quot;language-text&quot;&gt;gatsby-plugin-manifest&lt;/code&gt; in &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt;.&lt;/p&gt;
 &lt;h2&gt;Utterance is not working properly.&lt;/h2&gt;
