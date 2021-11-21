@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://sh981013s.github.io/sitemap/sitemap-index.xml
-Host: https://sh981013s.github.io
+Sitemap: https://hwani.dev/sitemap/sitemap-index.xml
+Host: https://hwani.dev
