@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://hwani.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 21 Nov 2021 16:12:53 GMT</lastBuildDate><item><title><![CDATA[스타벅스 메뉴관리 with vanilla JS]]></title><description><![CDATA[결과물 미리보기  CheckLists 메뉴에 새로운 메뉴를 확인 버튼 또는 엔터키 입력으로 추가한다. 메뉴가 추가되고 나면, input…]]></description><link>https://hwani.dev/starbucks-menu-1/</link><guid isPermaLink="false">https://hwani.dev/starbucks-menu-1/</guid><pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;결과물 미리보기&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://hwani.dev</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 22 Nov 2021 06:24:29 GMT</lastBuildDate><item><title><![CDATA[임시변수 제거하기]]></title><description><![CDATA[임시변수란? 자바스크립트를 다룰때, 기존의 Scope 를 다룰때,   을 사용하지 말고,   또한 피해야 한다고 들었다. 임시변수란, Scope…]]></description><link>https://hwani.dev/no-temporary-variable/</link><guid isPermaLink="false">https://hwani.dev/no-temporary-variable/</guid><pubDate>Mon, 22 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;임시변수란?&lt;/h2&gt;
+&lt;p&gt;자바스크립트를 다룰때, 기존의 Scope 를 다룰때, &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;전역공간&lt;/code&gt; 을 사용하지 말고,  &lt;code class=&quot;language-text&quot;&gt;var&lt;/code&gt; 또한 피해야 한다고 들었다.&lt;/p&gt;
+&lt;h4&gt;임시변수란, Scope 안에서 전역변수처럼 활용되는 친구를 생각한다.&lt;/h4&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;getObj&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    
+    result&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;tmp_variable&apos;&lt;/span&gt;
+    result&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;text &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;wow&apos;&lt;/span&gt;
+    
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; result&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위의 코드의 &lt;code class=&quot;language-text&quot;&gt;const result = {}&lt;/code&gt; 도 마찬가지이다.
+어떻게 보면 이것도 const 니까 문제 없을까? 라고 생각 할 수 있지만, 이 임시 객체도 함수가 커지 &lt;code class=&quot;language-text&quot;&gt;전역공간&lt;/code&gt; 이나 다름없는 상황이 발생할 수 있다.&lt;/p&gt;
+&lt;p&gt;그렇게 되면 위험한 상황이 나올 수 있다. 임시변수를 만들었을때, 누군가가 같이 일하는 팀원이 미래의 내가 유혹을 받을 수 있다는 말이다.&lt;/p&gt;
+&lt;p&gt;그러면 이 임시 변수를 어떻게 접근 할까에 대해서는, 함수를 작게 쪼개는 방법도 있지만, &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;getObj&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      title&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;tmp_variable&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      text&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;wow&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; result&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이런식으로 간소화 할 수도 있다. 일단은 코드가 명확해지고,
+아까는 굳이 선언 후 접근하는 과정으로 나뉘어있었기 때문에,
+누구나 고칠 수 있는 느낌이 들었다.&lt;/p&gt;
+&lt;p&gt;하지만, 더 명확하게 바꿀 수 있는 방법이 뭐가 있을까?&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;getObj&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      title&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;tmp_variable&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      text&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;wow&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이런식으로 바로 반환하는는 방법또한 존재한다.&lt;/p&gt;
+&lt;p&gt;그러면, 이 함수는 누가봐도 &lt;code class=&quot;language-text&quot;&gt;side-effect&lt;/code&gt; 가 많지않은, 함수로 볼 수 있다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;결론&lt;/h2&gt;
+&lt;h4&gt;임시변수는 좋지 않다.&lt;/h4&gt;
+&lt;p&gt;임시변수를 제거해야 하는 이유는&lt;/p&gt;
+&lt;p&gt;명령형으로 가득한 조직이기 때문에, 어디서 어떻게 잘못되었는지 디버깅이 어려워진다.&lt;/p&gt;
+&lt;p&gt;또한, 타인이 추가적인 코드를 덧붙이고 싶은 유혹에 빠지기 쉽다. 결국 코드의 유지보수가 어려워진다는 것이다.&lt;/p&gt;
+&lt;p&gt;이에따라 해결책은, 함수를 나누거나, 바로 반환하거나, &lt;code class=&quot;language-text&quot;&gt;map&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;filter&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;reduce&lt;/code&gt; 와 같은 고차 함수를 사용하는 것이다.&lt;/p&gt;
+&lt;p&gt;또한, 선언형 코드로 바꾸는 방식을 사용해보든 것이다. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[스타벅스 메뉴관리 with vanilla JS]]></title><description><![CDATA[결과물 미리보기  CheckLists 메뉴에 새로운 메뉴를 확인 버튼 또는 엔터키 입력으로 추가한다. 메뉴가 추가되고 나면, input…]]></description><link>https://hwani.dev/starbucks-menu-1/</link><guid isPermaLink="false">https://hwani.dev/starbucks-menu-1/</guid><pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;결과물 미리보기&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/static/123-aef01429119f9934401c29e13c7507a9.gif&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;CheckLists&lt;/h2&gt;
 &lt;ul&gt;
