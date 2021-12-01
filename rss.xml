@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://hwani.dev</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 01 Dec 2021 09:18:35 GMT</lastBuildDate><item><title><![CDATA[JS 타입 검사]]></title><description><![CDATA[서론 간단한 앱을 개발할때도 타입검사를 흔하게 사용한다. JS 에서 타입을 검사할때 제일먼저 떠오르는 것은  연산자 이다. typeof 는 우항에 있는 피연산자를 평가한 후, 문자열로 반환해준다.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://hwani.dev</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 01 Dec 2021 09:36:07 GMT</lastBuildDate><item><title><![CDATA[JS - undefined & null]]></title><description><![CDATA[서론  와 , 결국 값으로 쓰기에는 둘다 무언가 없다 라는 것을 의미한다. 인터넷만 봐도 이 둘의 차이때문에 혼란을 겪는 사람이 많고, 이에따라 이를 풍자하는 밈들 또한 많다. 언어적으로 더 엄격하다면 이러한 일도 없겠지만 JS…]]></description><link>https://hwani.dev/undefined-null/</link><guid isPermaLink="false">https://hwani.dev/undefined-null/</guid><pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;undefined&lt;/code&gt; 와 &lt;code class=&quot;language-text&quot;&gt;null&lt;/code&gt;, 결국 값으로 쓰기에는 둘다 무언가 없다 라는 것을 의미한다.&lt;/p&gt;
+&lt;p&gt;인터넷만 봐도 이 둘의 차이때문에 혼란을 겪는 사람이 많고, 이에따라 이를 풍자하는 밈들 또한 많다.&lt;/p&gt;
+&lt;p&gt;언어적으로 더 엄격하다면 이러한 일도 없겠지만 JS 에서는 헷갈릴 가능성이 높다고 생각한다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;본론&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;123&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 123&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;null&lt;/code&gt;을 뒤집어보면은 true 라고 표현하지만,&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;null&lt;/code&gt;을 &lt;code class=&quot;language-text&quot;&gt;boolean&lt;/code&gt;으로 바꾸면 false 라고 표현한다.&lt;/p&gt;
+&lt;p&gt;그렇다면 null 은 false 인가? 그것도 아니라고 한다.&lt;/p&gt;
+&lt;p&gt;그렇다면 !null 은 true 인가? 맞다고 한다.&lt;/p&gt;
+&lt;p&gt;머리가 지끈지끈하다.&lt;/p&gt;
+&lt;p&gt;또한, null 은 수학적으로는 &lt;code class=&quot;language-text&quot;&gt;비어있다&lt;/code&gt; 라는 state 를 표현하기에 0으로 간주한다.&lt;/p&gt;
+&lt;p&gt;때문에 null 은 비어있다 를 명시적으로 표현한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; variable&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; variable &lt;span class=&quot;token comment&quot;&gt;// undefined&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;undefined&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// NaN&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;undefined&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;그렇다면 undefined 는? &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;아무것도 지정하지 않았을 때에 기본값&lt;/code&gt; 이라고 생각이 든다.&lt;/p&gt;
+&lt;p&gt;변수를 선언하였지만 이에 값을 할당하지 않았다 이다.&lt;/p&gt;
+&lt;p&gt;하지만 연산을 시도해 보았을 때 null 은 0 으로 간주되었지만, undefined 는 NaN 즉 not a number 라고 하기에 더더욱 헷갈릴 수 있다.&lt;/p&gt;
+&lt;p&gt;또한 !undefined 는 또 true 라고 값이 찍힌다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;undefined&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;undefined&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;undefined&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위의 예시를 보면 정말 머리가 아플정도로 헷갈리고 모순점들또한 머리에 생기기 마련이다.&lt;/p&gt;
+&lt;p&gt;그러므로, undefined 와 null 을 많이 활용하는 코드를 작성하기 보다는, 하나의 팀에서 둘중에 하나만 선택하여 컨벤션 자체를 만드는 것이 좋다고 생각한다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;결론&lt;/h2&gt;
+&lt;p&gt;undefined 와 null 의 차이점이 많지만,&lt;/p&gt;
+&lt;p&gt;undefined 와 null 은 결국 값이 없거나 정의되지 않다는 차이점이 있고,&lt;/p&gt;
+&lt;p&gt;undefined 는 NaN 이지만 null 은 숫자적으로 표현하였을때 0에 가깝다.&lt;/p&gt;
+&lt;p&gt;undefined 의 type 은 undefined 이지만 null 의 type 은 object 이다.&lt;/p&gt;
+&lt;p&gt;그래서, 결국 이 둘의 쓰임을 조심해야만 한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JS - 타입 검사]]></title><description><![CDATA[서론 간단한 앱을 개발할때도 타입검사를 흔하게 사용한다. JS 에서 타입을 검사할때 제일먼저 떠오르는 것은  연산자 이다. typeof 는 우항에 있는 피연산자를 평가한 후, 문자열로 반환해준다.
 하지만, typeof…]]></description><link>https://hwani.dev/types-of-javascript/</link><guid isPermaLink="false">https://hwani.dev/types-of-javascript/</guid><pubDate>Mon, 29 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
 &lt;p&gt;간단한 앱을 개발할때도 타입검사를 흔하게 사용한다. JS 에서 타입을 검사할때 제일먼저 떠오르는 것은 &lt;code class=&quot;language-text&quot;&gt;typeof&lt;/code&gt; 연산자 이다.&lt;/p&gt;
 &lt;p&gt;typeof 는 우항에 있는 피연산자를 평가한 후, 문자열로 반환해준다.
