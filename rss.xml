@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://hwani.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 09 Jan 2022 07:44:20 GMT</lastBuildDate><item><title><![CDATA[리액트 크롬 데브툴 디버깅(debugging)]]></title><description><![CDATA[서론 외부 api 를 사용하는 상황에서 Docs 를 읽어본다 한들 실제 데이터의 형태가 어떻게 구성되어있는지 정확히 예상하고 코드를 짜는 행위는 불가능에 가깝다고 생각하고 에러를 유발한다. 나는 데이터 구성을 확인하기 위해 데이터 fetching…]]></description><link>https://hwani.dev/react-debugging/</link><guid isPermaLink="false">https://hwani.dev/react-debugging/</guid><pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://hwani.dev</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 18 Jan 2022 13:31:23 GMT</lastBuildDate><item><title><![CDATA[자바스크립트 내에서의 세미콜론(;) 사용]]></title><description><![CDATA[…]]></description><link>https://hwani.dev/js-semicolon/</link><guid isPermaLink="false">https://hwani.dev/js-semicolon/</guid><pubDate>Tue, 27 Dec 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
+&lt;p&gt;자바스크립트 내에서 세미콜론(;) 은 언제 사용해야할까?&lt;/p&gt;
+&lt;p&gt;왜 사용해야할까? &lt;/p&gt;
+&lt;p&gt;언제 사용해야할까?&lt;/p&gt;
+&lt;p&gt;나는 흔히 인터넷에서 돌아다니는 말중에 &apos;자바스크립트를 사용할때
+세미콜론을 생략해도 되지만, 사용하도록 버릇을 들이는게 좋을것이다.&apos;
+라는 대다수의 조언을 받아드려 마구잡이로 사용하고 있었다.&lt;/p&gt;
+&lt;p&gt;내가 세운 나만의 기준은 당시 &apos;문장의 끝에 단다.&apos; 정도였지만 조금더
+정확한 이유와 개념을 알 필요가 있다고 생각했다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;본론&lt;/h2&gt;
+&lt;p&gt;세미콜론(;)은 &lt;code class=&quot;language-text&quot;&gt;문&lt;/code&gt; 의 종료를 나타낸다. &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;문&lt;/code&gt; 이란 프로그램을 구성하는 기본 단위이자 최소 실행 단위이다.
+문의 집합으로 이루어진 것이 &lt;code class=&quot;language-text&quot;&gt;프로그램&lt;/code&gt; 이며, 문을 작성하고 순서에 맞게
+나열하는 행위가 &lt;code class=&quot;language-text&quot;&gt;프로그래밍&lt;/code&gt; 이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; num &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;예시로, 위의 내가 생각하던 &apos;문장&apos;은 키워드를 사용한 &lt;code class=&quot;language-text&quot;&gt;변수의 선언&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;표현식의 평가&lt;/code&gt;,&lt;code class=&quot;language-text&quot;&gt;값을 할당&lt;/code&gt;
+이 이루어진 하나의 &lt;code class=&quot;language-text&quot;&gt;문&lt;/code&gt; 이다. 즉 자바스크립트는 세미콜론을 기준으로 문이 종료한 위치를 파악 후 순차적으로 하나씩 문을 실행한다.&lt;/p&gt;
+&lt;p&gt;허나 여기에서 내가 생각하던 문제가 있다. 나는 주로 &lt;code class=&quot;language-text&quot;&gt;ESLint&lt;/code&gt; 와 &lt;code class=&quot;language-text&quot;&gt;Prettier&lt;/code&gt; 같은 정적 분석 도구를 사용하였지만,
+보통 문의 종료라고 생각되는 지점에는 자동적으로 세미콜론을 붙여주였지만, &lt;code class=&quot;language-text&quot;&gt;if문&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;for문&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;함수&lt;/code&gt; 뒤에는 세미콜론을 자동으로 붙이지 않아주었다.&lt;/p&gt;
+&lt;p&gt;나는 여지껏 해당 정적 분석 도구 자체의 하나의 오류이거나 해당 행위는 optional 하지 않을까..? 라고 어림짐작만 하고 있던 상태였다.&lt;/p&gt;
+&lt;p&gt;하지만, if문, for문, 함수등의 코드 불록 뒤에는 세미콜론을 붙이지 않으며 이유는, 이러한 코드 블록은 언제나 문의 종료를 의미하는
+&lt;code class=&quot;language-text&quot;&gt;자체 종결성 (self closing)&lt;/code&gt; 을 가지고 있기 때문이다.&lt;/p&gt;
+&lt;p&gt;또한, 자바스크립트 엔진은 소스코드를 해석할 때 문의 끝이라고 예측되는 지점에 세미콜론을 자동으로 붙여주는
+&lt;code class=&quot;language-text&quot;&gt;ASI&lt;/code&gt; 가 자동으로 실행되지만 왜 대다수의 개발자들은 세미콜론을 반드시 붙여야한다는 의견이 대다수일까?&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 474px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/ec542d745a10a9e3ce6557d48770cf86/823f8/2c803f76.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 48.8235294117647%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABR0lEQVQoz6WS646CQAyFef+3Q4MXUAEBAQFBASEIdvPVzMafm+wkJ+102unpmbH6vpfr9SppmsrtdpOqqnSf57nc73f1idd1rWdlWWosyzJpmkb38zyLWVZRFLLdbmW1WkkQBBKGoRwOB/F9X87ns+z3e4XruhrH32w24nme5hOn+ePxUAIWG5JIPp1OeuHxeJTdbqexKIo0zuXYOI71nDz2XGoawNyCtrnkcrlIkiTKDpBMjPGwTEMj4pwzLo2ohZiOjHYkQR2mdMHSna6O4yiD9Xr9KwVntm1rnWFOzfP5/IxsLiOBgtfrpUID/Pf7LcuyKFjGN3FjleE0TTKOowzDIPjgP8vidRAepgiOBFg0A4xkrHl1NDejUosUoG3bz8h8G3QC+IyNRQq0o5D/CtAJMNV3DIs8Fg7/5xtd16mFPb+AnL+uH5vF7B7nUn4FAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;2c803f76&apos; title=&apos;2c803f76&apos; src=&apos;/static/ec542d745a10a9e3ce6557d48770cf86/823f8/2c803f76.png&apos; srcset=&apos;/static/ec542d745a10a9e3ce6557d48770cf86/e7570/2c803f76.png 170w,
+/static/ec542d745a10a9e3ce6557d48770cf86/f46e7/2c803f76.png 340w,
+/static/ec542d745a10a9e3ce6557d48770cf86/823f8/2c803f76.png 474w&apos; sizes=&apos;(max-width: 474px) 100vw, 474px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;위의 한 개발자가 말하기를, C# 을 사용할때는 문의 끝에 반드시 세미콜론을 붙여야한다는 문법적 강제성이 따른다.
+하지만 말그대로 자바스크립트에서 런타임 동작시 우리가 붙인 세미콜론은 아무런 의미를 찾을 수 없다는 의견을 내포한다고 나는 이해하였다.&lt;/p&gt;
+&lt;p&gt;반대로 써야한다는 개발자들의 의견의 대다수는, 보통 다른언어에서도 그래왔기 때문에 &lt;code class=&quot;language-text&quot;&gt;가독성&lt;/code&gt; 면에서 다른이가 나의 코드를 읽었을때,
+세미콜론을 사용한다면 해당 문의 끝이 어디인지 정확히 알 수 있기도 하고, 인터프리터의 ASI 기능에 100프로 의존하며 자발적으로 불안감을 느낄 수 있는 행위를
+도대체 왜 옹호하냐는 의견이 많았다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;결론&lt;/h2&gt;
+&lt;p&gt;세미콜론은 문의 종료를 나타낸다. 문이란 프로그램을 구성하는 기본 단위이자 최소 실행 단위이다. 하지만, 자바스크립트에서는
+개발자가 세미콜론을 붙이지 않더라도 ASI 를 통해 자동적으로 문의 끝의 예측지점에 세미콜론을 부여한다.&lt;/p&gt;
+&lt;p&gt;세미콜론의 사용 비사용 의견에 나의 의견을 말하자면, 결국 우리의 소스코드를 인터프리터가 해석한다고 하지만, 결국 소스코드란
+개발자가 쓰고, 유지하고 보수하는 하나의 &lt;code class=&quot;language-text&quot;&gt;문서&lt;/code&gt; 라고 생각이 든다. 그 뜻은, 해당 소스코드를 작성한 개발자 및 해당 소스코드를
+읽고 사용,유지 및 보수해야하는 다른 개발자 또한 지속적으로 해당 소스코드를 보아야 하는데, 인간이 글을 작성할때 가독성을 위해
+문장의 끝에 마침표를 넣듯이, 결국 안정성 및 가독성을 위해 세미콜론을 사용해야 하지 않을까?  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[리액트 크롬 데브툴 디버깅(debugging)]]></title><description><![CDATA[서론 외부 api 를 사용하는 상황에서 Docs 를 읽어본다 한들 실제 데이터의 형태가 어떻게 구성되어있는지 정확히 예상하고 코드를 짜는 행위는 불가능에 가깝다고 생각하고 에러를 유발한다. 나는 데이터 구성을 확인하기 위해 데이터 fetching…]]></description><link>https://hwani.dev/react-debugging/</link><guid isPermaLink="false">https://hwani.dev/react-debugging/</guid><pubDate>Sun, 09 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
 &lt;p&gt;외부 api 를 사용하는 상황에서 Docs 를 읽어본다 한들 실제 데이터의 형태가 어떻게 구성되어있는지 정확히 예상하고 코드를 짜는 행위는 불가능에 가깝다고 생각하고 에러를 유발한다. 나는 데이터 구성을 확인하기 위해 데이터 fetching 후 직접 콘솔로 찍어 확인하는 방법을 사용하였는데, 이는 차후에 코드의 에러를 유발할 수 있고, 자칫 까먹고 체크하는 코드를 없애는 행위를 까먹는 상황을 방지하기 위해 직접 콘솔을 찍기 보다는 &lt;code class=&quot;language-text&quot;&gt;Chrome Dev Tool&lt;/code&gt; 을 사용하여 &lt;code class=&quot;language-text&quot;&gt;디버깅&lt;/code&gt; 하는 방법을 채택하였다.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;본론&lt;/h2&gt;
