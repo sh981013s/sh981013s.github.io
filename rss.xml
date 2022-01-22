@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://hwani.dev</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 18 Jan 2022 14:01:52 GMT</lastBuildDate><item><title><![CDATA[자바스크립트 내에서의 세미콜론(;) 사용]]></title><description><![CDATA[…]]></description><link>https://hwani.dev/js-semicolon/</link><guid isPermaLink="false">https://hwani.dev/js-semicolon/</guid><pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://hwani.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 22 Jan 2022 12:13:26 GMT</lastBuildDate><item><title><![CDATA[자바스크립트 단축 평가]]></title><description><![CDATA[서론 리액트 프로트를 진행하다보면 위와같은 코드를 심심치 않게 쓴다. 나는 보통 url 을 통해 데이터를 fetching…]]></description><link>https://hwani.dev/js-short-circuit-evaluation/</link><guid isPermaLink="false">https://hwani.dev/js-short-circuit-evaluation/</guid><pubDate>Thu, 20 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// ... 생략&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Root&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;data &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;p&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;Root&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;리액트 프로트를 진행하다보면 위와같은 코드를 심심치 않게 쓴다. 나는 보통 url 을 통해 데이터를 fetching
+하였을때 비동기 처리를 위해 데이터가 있을때만 해당 코드가 동작하게 하는 &lt;code class=&quot;language-text&quot;&gt;예외처리&lt;/code&gt; 이구나 하고
+아무생각 없이 사용하곤 하였다. 그러던 중 해당 코드는 자바스크립트의 &lt;code class=&quot;language-text&quot;&gt;논리연산자를 사용한 단축 평가&lt;/code&gt; 라는 개념을
+사용한다는 것을 알게되었고 이에대해 정리하려고 한다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;본론&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;논리곱(&amp;#x26;&amp;#x26;) 연산자는 두개의 피연산자가 모두 true 로 평가될 때 true 를 반환한다. 논리곱 연산자는 좌항에서 우항으로 평가가 진행된다.&lt;/li&gt;
+&lt;li&gt;논리합(||) 연산자는 두개의 피연산자 중 하나만 true 로 평가되어도 true 를 반환한다. 논리합 연산자 또한 좌항에서 우항으로 평가가 진행된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;논리곱 연산자와 논리합 연산자는 &lt;code class=&quot;language-text&quot;&gt;논리 연산의 결과를 결정하는 피연산자&lt;/code&gt; 를 타입 변환하지 않고 그대로 반환한다. 이를 단축 평가라 한다.
+단축 평가는 표현식을 평가하는 도중에 평가 결과가 확정된 경우 나머지 평가 과정을 생략하는 것을 뜻한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 논리곱(&amp;amp;&amp;amp;) 연산자&lt;/span&gt;
+&lt;span class=&quot;token string&quot;&gt;&apos;a&apos;&lt;/span&gt;   &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;b&apos;&lt;/span&gt;   &lt;span class=&quot;token comment&quot;&gt;// =&gt; &apos;b&apos;&lt;/span&gt;
+&lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;b&apos;&lt;/span&gt;   &lt;span class=&quot;token comment&quot;&gt;// =&gt; false&lt;/span&gt;
+&lt;span class=&quot;token string&quot;&gt;&apos;a&apos;&lt;/span&gt;   &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// =&gt; false&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// 논리합(||) 연산자&lt;/span&gt;
+&lt;span class=&quot;token string&quot;&gt;&apos;a&apos;&lt;/span&gt;   &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;b&apos;&lt;/span&gt;   &lt;span class=&quot;token comment&quot;&gt;// =&gt; &apos;a&apos;&lt;/span&gt;
+&lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;b&apos;&lt;/span&gt;   &lt;span class=&quot;token comment&quot;&gt;// =&gt; &apos;b&apos;&lt;/span&gt;
+&lt;span class=&quot;token string&quot;&gt;&apos;a&apos;&lt;/span&gt;   &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// =&gt; &apos;a&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;단축 평가를 사용하면 if 문을 대체할 수 있다. 어떤 조건이 true 여야 실행되어야 한다면, 논리곱(&amp;#x26;&amp;#x26;) 연산자 표현식으로
+이를 대체하고, 조건이 false 여야 실행되어야 한다면 논리합(||) 연산자 표현식으로 이를 대체할 수 있다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; finished &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; message &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+message &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; finished &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;완료&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// =&gt; &apos;완료&apos;&lt;/span&gt;
+
+finished &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+message &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; finished &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;미완료&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// =&gt; &apos;미완료&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;결론&lt;/h2&gt;
+&lt;p&gt;단축평가에 대해 처음 알아보기 전에는 그냥 비교연산자와 같이 비교하여 true / false 를 반환하는거 아니였나..? 라고 막연하게
+생각하였는데 그렇지 않고 논리 연산의 결과를 &lt;code class=&quot;language-text&quot;&gt;결정&lt;/code&gt; 하는 피연산자를 그대로 타입 변환 없이 그대로 반환한다는 특징을 가지고 있다.
+이를 잘만 사용한다면 리액트를 사용할때, 논리식을 사용하여 데이터가 없거나 아직 비어있을때 에러를 방지하는 처리를 해줄 수 있겠다는 결론에 다달았다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[자바스크립트 내에서의 세미콜론(;) 사용]]></title><description><![CDATA[…]]></description><link>https://hwani.dev/js-semicolon/</link><guid isPermaLink="false">https://hwani.dev/js-semicolon/</guid><pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
 &lt;p&gt;자바스크립트 내에서 세미콜론(;) 은 언제 사용해야할까?&lt;/p&gt;
 &lt;p&gt;왜 사용해야할까? &lt;/p&gt;
 &lt;p&gt;언제 사용해야할까?&lt;/p&gt;
