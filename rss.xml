@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://hwani.dev</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 27 Jan 2022 14:31:41 GMT</lastBuildDate><item><title><![CDATA[싱글스레드인 자바스크립트는 어떻게 비동기 처리를 하는가]]></title><description><![CDATA[…]]></description><link>https://hwani.dev/js-single-thread/</link><guid isPermaLink="false">https://hwani.dev/js-single-thread/</guid><pubDate>Mon, 24 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://hwani.dev</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 28 Jan 2022 13:12:47 GMT</lastBuildDate><item><title><![CDATA[싱글스레드인 자바스크립트는 어떻게 비동기 처리를 하는가]]></title><description><![CDATA[…]]></description><link>https://hwani.dev/js-single-thread/</link><guid isPermaLink="false">https://hwani.dev/js-single-thread/</guid><pubDate>Mon, 24 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
 &lt;p&gt;자바스크립트는 하나의 &lt;code class=&quot;language-text&quot;&gt;call stack&lt;/code&gt; 과 하나의 &lt;code class=&quot;language-text&quot;&gt;memory heap&lt;/code&gt; 을 가진
 &lt;code class=&quot;language-text&quot;&gt;single threaded language&lt;/code&gt; 이다. 그러므로 당연히 위에서부터 순차적으로 코드를
 실행하고 다음 코드로 넘어가기 전 실행하고 있는 코드를 끝내야만 한다. 맞다. &lt;code class=&quot;language-text&quot;&gt;자바스크립트(js)&lt;/code&gt; 는 &lt;code class=&quot;language-text&quot;&gt;동기적이다(synchronous)&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;허나, 내 머리를 지끈거리게 만든 점은 코르를 작성하다보면 의도적으로 코드를 &lt;code class=&quot;language-text&quot;&gt;비동기 처리&lt;/code&gt; 하는 행위를
 심심치 않게 해왔지만, &lt;/p&gt;
-&lt;p&gt;&apos;도대체 어떻게 싱글스레드인 자바스크립트는 코드를 비동기적으로 실행시킬까?&apos; 에서 머리가 복잡해졌다.&lt;/p&gt;
+&lt;p&gt;&apos;도대체 어떻게 싱글스레드인  자바스크립트는 코드를 비동기적으로 실행시킬까?&apos; 에서 머리가 복잡해졌다.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;본론&lt;/h2&gt;
 &lt;p&gt;고맙게도 자바스크립트 엔진은(V8, Spidermonkey, JavascriptCore 등등..)은
