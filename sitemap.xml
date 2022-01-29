@@ -28,6 +28,7 @@
 <url> <loc>https://hwani.dev/js-short-circuit-evaluation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hwani.dev/js-const/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hwani.dev/js-single-thread/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://hwani.dev/js-indexOf/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hwani.dev/series/JS_CleanCode</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hwani.dev/series/Blog-settings</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://hwani.dev/series/React</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
