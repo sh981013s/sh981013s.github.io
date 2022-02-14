@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://hwani.dev</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 14 Feb 2022 11:57:52 GMT</lastBuildDate><item><title><![CDATA[리액트 Code-splitting 실적용 사례]]></title><description><![CDATA[서론 아래의 링크에서 내가 왜 리액트같은 SPA 에서  을 해야하는지에 대해 서술하였지만, 이번에는 내가 현재 진행하고 있는 프로젝트
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://hwani.dev</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 14 Feb 2022 13:21:33 GMT</lastBuildDate><item><title><![CDATA[리액트 Code-splitting 실적용 사례]]></title><description><![CDATA[서론 아래의 링크에서 내가 왜 리액트같은 SPA 에서  을 해야하는지에 대해 서술하였지만, 이번에는 내가 현재 진행하고 있는 프로젝트
 내부에서 코드분할 전 후 를 비교하며 결과를 기록하려한다.  https://hwani.dev/react-code…]]></description><link>https://hwani.dev/react-real-code-splitting/</link><guid isPermaLink="false">https://hwani.dev/react-real-code-splitting/</guid><pubDate>Mon, 14 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
 &lt;p&gt;아래의 링크에서 내가 왜 리액트같은 SPA 에서 &lt;code class=&quot;language-text&quot;&gt;코드분할 (code-splitting)&lt;/code&gt; 을 해야하는지에 대해 서술하였지만, 이번에는 내가 현재 진행하고 있는 프로젝트
 내부에서 코드분할 전 후 를 비교하며 결과를 기록하려한다. &lt;/p&gt;
@@ -104,7 +104,42 @@
 &lt;p&gt;해당 점수의 폭만 봐도 이정도의 노력만 들이더라도 전반적인 퍼포먼스를 대폭 늘릴 수 있다면 &lt;code class=&quot;language-text&quot;&gt;코드 분할&lt;/code&gt; 을 사용해야할 이유는 충분하지 않을까 생각한다.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;결론&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;코드 분할 (code-splitting)&lt;/code&gt; 은 단순 &quot;지연시간동안 사용자에게 로딩화면을 보여준다&quot; 라는 이유 이외로도 실제 SPA 의 성능 향상에 대폭 영향을 끼친다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[자바스크립트 indexOf() 와 시간 복잡도의 상관관계에 대한 고찰]]></title><description><![CDATA[…]]></description><link>https://hwani.dev/js-indexOf/</link><guid isPermaLink="false">https://hwani.dev/js-indexOf/</guid><pubDate>Sat, 29 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;코드 분할 (code-splitting)&lt;/code&gt; 은 단순 &quot;지연시간동안 사용자에게 로딩화면을 보여준다&quot; 라는 이유 이외로도 실제 SPA 의 성능 향상에 대폭 영향을 끼친다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2021년 블로그 운영 회고]]></title><description><![CDATA[2021년 11월 말부터 블로그 작성을 시작하여 어느덧…]]></description><link>https://hwani.dev/2021-retrospect/</link><guid isPermaLink="false">https://hwani.dev/2021-retrospect/</guid><pubDate>Thu, 10 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;2021년 11월 말부터 블로그 작성을 시작하여 어느덧 3개월 정도가 지난것 같다.&lt;/p&gt;
+&lt;p&gt;원래는 &lt;code class=&quot;language-text&quot;&gt;Velog&lt;/code&gt; 에 강의를 듣고 이를 정리하는 식으로 진행하고 있었지만,&lt;/p&gt;
+&lt;p&gt;문뜩 든 생각이, &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&apos;이걸 누가 못하는가?&apos;&lt;/li&gt;
+&lt;li&gt;&apos;저작권 법에 정말 문제가 없는가?&apos; &lt;/li&gt;
+&lt;li&gt;&apos;나에게 어떠한 방식으로 성장의 밑거름이 되었는가?&apos;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;정도가 있었다.&lt;/br&gt; 결론은, 강의를 듣고 정리하는 글들은 이미 잘하시는 분들도 많고, &lt;/br&gt; 나는 단순히 &lt;code class=&quot;language-text&quot;&gt;이승환의 개발블로그&lt;/code&gt; 라는 타이틀을 가지고
+강의 정리 내용으로 내 블로그의 정체성을 정하고 싶지 않았다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;저작권법에 관해서는 이미 다른분들도 충분히 알아보고 괜찮다고 하시는 분들도 많았지만 개인적으로는 강의자가 어떠한 문제에 대해 해결책을 내리고 이를 이용하여
+수익창출을 함에도 불구하고 &lt;code class=&quot;language-text&quot;&gt;똑같은&lt;/code&gt; 내용을 원작자의 동이 없이 그대로 다른이에게 무단으로 해당 강의자의 견해를 전달하는 블로그가 되고싶지 않았다.&lt;/p&gt;
+&lt;p&gt;단순히 강의에대한 정리를 쓰는 행위자체가 나의 성장에 어떻게 도움을 주었는가에 대한 질문은 물론 해당 과정에서 더욱 머리에 정리되는 느낌이 들었고,
+실제 배운 내용을 기반으로 글을 씀으로써 새로운 궁금증이 생기는 긍정적 효과가 있었지만, 위와같은 이유로 강의 내용이 빽빽히 찬 블로그를 만들고 싶지는
+않았다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;그후, 나름 나만의 방법으로 새로운 블로그에 새 출발을 하기로 결정하였다. &lt;/p&gt;
+&lt;p&gt;글을 쓸때, 아래와 같은 프로세스를 통해 작성하기로 결심하였다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;공부 혹은 프로젝트중 항상 새로운 궁금증, 문제에 직면한다.&lt;/li&gt;
+&lt;li&gt;해당 궁금증을 해결하거나 문제를 해결하기위해 구글링을 통해 여러 사람의 의견 및 자료를 추합하여 나만의 해답을 내놓는다.&lt;/li&gt;
+&lt;li&gt;글을 쓸때, 서론, 본론, 결론에 의거하여 왜 이런 문제에 직면했는가, 어떤 해결방법 혹은 원리가 들어갔는가, 그래서 결론은 무엇인가? 에 꼭 입각하여 작성한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;하지만 이렇다보니 미천한 나의 실력에 비해 내 견해가 너무 많이 뭍을 수 있는 글을 쓰기 시작하였고, 과연 이런 성질의 글을 사람들이 봐줄까..? 라는 생각이 들며
+글을 쓰고 있었다.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 290px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/2f1e2d8cd748ce442ebafa0f31b3c409/bd800/6009a6a2.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 54.70588235294118%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACDklEQVQoz4VTS2sUQRCeP6VeBCEgeFE0MRAQPKigf8GD4sEgPkAQNCARPHiIGJFkXaJ48SCJR4N4UTQmu0nMmtnZme3d7q5+fFbXJtklFws+6kFXzVePyZ59NLhb03i4pHG/rnFvoYeZmW+YffwFs09WWa/i+dOv2M01yAf0NEFbD+uCQFsnMYlTQDY2rXD6gcLJOwrHbikcvV5g/MwSrkws4vL5OqZOvcHFszVsNUr0+xWqskQMAUm8c+InWGsklp24rTD5qIex6S6O3FQ4fqPA5Ph7XJ16i2sX3uHc2DwuTdTRWC/QKdsoy0oSHRczxiLPc/5QX2JEhGxu2eDFJ4O5FcLLz4RXKwaLC2uozX9H7fUPwYf6L6iulaTA7Lz3kpzsGCMC+9ZaQYag+dmA7v8kJQ8w6gOWHPJ2IUwzx4NO8CEOkfxDGBaLqRKzS1UjuiZiO/cou8Sz9cgS7X3qhzGgsmdjiP1iSTb/Eja2DCK3nT6cHSRjFANxnMgXIhFtI6p+ZB2w0wnYrQLKXsDPpkUrpzRdWRQXTPcUUagA1Q/o8qNO5dAuHRotQnPHoNmyrC0afww2tg3WmdFvxtqmRrujhZBzXrS0rLXhwabNcVFl2PdQPcu25lvzMHy0ZEkSiCzHSDqwVqNo5wfbT71kcvG8JR8GiyEuEGIUP9k+ptb37DQCSn/J0HYjyyR+/A9ByTV48lT6EgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;6009a6a2&apos; title=&apos;6009a6a2&apos; src=&apos;/static/2f1e2d8cd748ce442ebafa0f31b3c409/bd800/6009a6a2.png&apos; srcset=&apos;/static/2f1e2d8cd748ce442ebafa0f31b3c409/e7570/6009a6a2.png 170w,
+/static/2f1e2d8cd748ce442ebafa0f31b3c409/bd800/6009a6a2.png 290w&apos; sizes=&apos;(max-width: 290px) 100vw, 290px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;하지만 예상과 달리 생각보다 실제 지표는 가파른 상승세를 보여줬고 단 한분이라도 내 글을 읽어주면 좋겠다
+라는 생각과 달리 꽤 많은분들이 내 글들을 읽어주셨다.&lt;/p&gt;
+&lt;p&gt;비록 자주는 못하더라도 멈추지 않고 계속 공부를 이어나가며 글들을 쓸 계획이다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[자바스크립트 indexOf() 와 시간 복잡도의 상관관계에 대한 고찰]]></title><description><![CDATA[…]]></description><link>https://hwani.dev/js-indexOf/</link><guid isPermaLink="false">https://hwani.dev/js-indexOf/</guid><pubDate>Sat, 29 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
 &lt;p&gt;알고리즘을 연습하고 탐구하다 여지껏 쓴 코드들을 보며 &lt;code class=&quot;language-text&quot;&gt;시간복잡도&lt;/code&gt; 에 대해 생각을 해보았다.&lt;/p&gt;
 &lt;p&gt;적어도 빅오표기법 기준 &lt;code class=&quot;language-text&quot;&gt;O(n)&lt;/code&gt; 어쩔 수 없지 라고 생각하며 마구잡이 식으로 &lt;code class=&quot;language-text&quot;&gt;for문&lt;/code&gt; 내부에 &lt;code class=&quot;language-text&quot;&gt;indexOf()&lt;/code&gt; 메소드를 남발하고 있었다.  &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; arr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
