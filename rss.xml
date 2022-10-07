@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://hwani.dev</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 25 Aug 2022 18:01:10 GMT</lastBuildDate><item><title><![CDATA[멋쟁이사자처럼 10기 해커톤 이후 회고]]></title><description><![CDATA[서론 멋쟁이 사자처럼 10기 전체 해커톤에서 우리학교 팀원들과  이라는 물물경매 플랫폼으로 약 900명 / 150팀 중  이라는 좋은 성적을 받게 되었다.  깃헙 링크: https://github.com/bunderLikeLion…]]></description><link>https://hwani.dev/sellon/</link><guid isPermaLink="false">https://hwani.dev/sellon/</guid><pubDate>Sun, 25 Sep 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of hwani.dev]]></title><description><![CDATA[Hello :) I'm Hwani and currently focusing on React.js.]]></description><link>https://hwani.dev</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 07 Oct 2022 09:34:45 GMT</lastBuildDate><item><title><![CDATA[멋쟁이사자처럼 10기 해커톤 이후 회고]]></title><description><![CDATA[서론 멋쟁이 사자처럼 10기 전체 해커톤에서 우리학교 팀원들과  이라는 물물경매 플랫폼으로 약 900명 / 150팀 중  이라는 좋은 성적을 받게 되었다.  깃헙 링크: https://github.com/bunderLikeLion…]]></description><link>https://hwani.dev/sellon/</link><guid isPermaLink="false">https://hwani.dev/sellon/</guid><pubDate>Sun, 25 Sep 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
 &lt;p&gt;멋쟁이 사자처럼 10기 전체 해커톤에서 우리학교 팀원들과 &lt;code class=&quot;language-text&quot;&gt;Sellon&lt;/code&gt; 이라는 물물경매 플랫폼으로 약 900명 / 150팀 중 &lt;code class=&quot;language-text&quot;&gt;동상&lt;/code&gt; 이라는 좋은 성적을 받게 되었다. &lt;/p&gt;
 &lt;p&gt;깃헙 링크: &lt;a href=&quot;https://github.com/bunderLikeLion&quot;&gt;https://github.com/bunderLikeLion&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;하지만 해커톤의 특성상 짧은 시간내로 &lt;code class=&quot;language-text&quot;&gt;product&lt;/code&gt;를 만들어야 했었고, 개발 과정에서 놓치고 지나간 부분이 꽤나 많다는 부분을 인지하고 있었음에도 불구하고
@@ -250,7 +250,94 @@
 &lt;h2&gt;결론&lt;/h2&gt;
 &lt;p&gt;좋은 팀원들을 만나 나름 웃으면서 재밌게 개발을 할 수 있었고, 배운점도 많았기에 만족할 수 있었던 프로젝트였다. 이후 꼭 최적화를 계속 생각하며 개발을 해야한다는 교훈을
 뼈져리게 느끼기도 하였고 branch 전략을 세워 개발 중간중간 PR code review 를 진행하며 나름 협업에 대한 개념도 어느정도 머릿속에 들어온 것 같다. 다음 글에서는
-내가 &lt;code class=&quot;language-text&quot;&gt;react-query&lt;/code&gt; 에서 주목한 핵심 개념은 무엇이었으며, 나는 어떻게 사용했는가에 대해 글을 적을 예정이다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Queue with JS]]></title><description><![CDATA[서론  는 먼저 온 소비자가 먼저 서비스를 받는 리소스에 대한 소비자 대기열이라 이해하면 편하다.  는 
+내가 &lt;code class=&quot;language-text&quot;&gt;react-query&lt;/code&gt; 에서 주목한 핵심 개념은 무엇이었으며, 나는 어떻게 사용했는가에 대해 글을 적을 예정이다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[리액트에서 피해야할 안티패턴]]></title><description><![CDATA[…]]></description><link>https://hwani.dev/react-4-anti-patterns/</link><guid isPermaLink="false">https://hwani.dev/react-4-anti-patterns/</guid><pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
+&lt;p&gt;항상 나는 리액트라는 &lt;code class=&quot;language-text&quot;&gt;도구&lt;/code&gt;를 올바르게 사용하고 있는지에 대한 고민이 있다.
+망치를 가지고 있다고 가정하였을때 망치 손잡이를 잡을지 아니면 망치 머리 가까이에 손을 위치할지 결정할 수 있다.
+망치 제작자들은 방법을 &lt;code class=&quot;language-text&quot;&gt;명시&lt;/code&gt;하지 않지만, 더 &lt;code class=&quot;language-text&quot;&gt;효율적인&lt;/code&gt; 방법은 존재하리라 믿는다. 이는 리액트에도 해당되지 않을까 싶다.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 307px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/44d822b1078dd628de69636b5d75b840/ca17f/647cf611.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 68.82352941176471%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsTAAALEwEAmpwYAAACQElEQVQ4y4WU3UtTYRzHDyFEdRPUVXXhX9BNV2FCdDFIYTNfKAapNBxEaNmck95w0FUX4kUhRb6wqzRQQq1MltOE7EUw88rVtqZtmebRnJ6a55xPZ8dt7bV+8OM8z+/5PZ/n9z3Pi4BmqqrqntrO9MSYLMs7MdLjCRMyQfksdSzWVhQlazEdmCs5X4VLS0sMPxvOuVASmEtqbPWEJ/ox8/l9lJlK6HZ1MR/w8WNNzIIKqbAdiIwib6PGXNWA2rgSFyBqALu9kcqqM7TebsXV18umJGVXqChxmLwDSJcka0SJiBiif6CPhiv1lFeYsFw4j625iZmPs3peQo2QlJoASGG2w5NEvf1EP3QRnWoj6nGy0luH1XiMUlMZZvNZLJYa6hsuMfX2TTaQuDRvj4NQ2xFCnUX42ovx3ilm7vpRXlsPMWEScJ7aj7m2BkeLnWaHjRs3rxFcCCaBSclqvDN6y8LgCYH3tQfwVO7hqbGAAYPA45MCz88d5lWnkwcP73O5/iJWax1NdhtPhgbTNjUOlPVgYHqCR0X7cBsKGDHuZah0Ny+rC5nvbiHyza/neNyjVBhP67CrtkbGxsfSgfC3wvVl7ZxVFeIu2cWLyoNMOctZfDfCyvcwC/55At45xt0jNGkb09FxD49nDEnaSt/lmPbNyAZf/V5mJt3crTbQYz7OpKudT7PThL98ZjUUZENcIfJzjV9bm3lvUVJyDCppieury4iiSET6zb8s9fBnXoz4TVFzTFL0X6F///NgpM7/A/5248dp7QQfAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;647cf611&apos; title=&apos;647cf611&apos; src=&apos;/static/44d822b1078dd628de69636b5d75b840/ca17f/647cf611.png&apos; srcset=&apos;/static/44d822b1078dd628de69636b5d75b840/e7570/647cf611.png 170w,
+/static/44d822b1078dd628de69636b5d75b840/ca17f/647cf611.png 307w&apos; sizes=&apos;(max-width: 307px) 100vw, 307px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;본고에서는 단순히 리액트를 사용한다는 관점을 넘어서 어떻게 더 &lt;code class=&quot;language-text&quot;&gt;효율적으로&lt;/code&gt; 리액트를 사용하기 위하여 피해야하는 세가지의 &lt;code class=&quot;language-text&quot;&gt;안티패턴&lt;/code&gt; 에 대하여 다룰 것이다.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 360px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/6136fcbe9aa248bf8638d1b578fcdbc7/53918/69fdc17c.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 52.352941176470594%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA8klEQVQoz2NQUlL6j4EVFcFYEcSWlfmvJCcHwUC2IpI8Nr0M6AIgDYowwxQU/suZW/+XNzQGYxAbJIaihpCBcJfJy/1X0NT6L+UX9l8sKQ+MQWyQGEgO7lKiXAhVLOPg9l+4tOW/YOPk/wJADGKDxGCWKhLrZSV5+f8K2rr/JcIT/oulFf0XaJsBxiA2SAwkB1JDtIFghXKy/2Utbf+L5Nf+Fy5vB2MQGyQGkiPahUpIEaKoqvZf2jPgv3hcJhiD2CAxWMQQHYaIiJH/L29g9F9RXQOMQWy4V4mOZQxD5cAuAmOk2MVmGF4DkTUq4hDDphcAtUUkH8cbnW0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;69fdc17c&apos; title=&apos;69fdc17c&apos; src=&apos;/static/6136fcbe9aa248bf8638d1b578fcdbc7/53918/69fdc17c.png&apos; srcset=&apos;/static/6136fcbe9aa248bf8638d1b578fcdbc7/e7570/69fdc17c.png 170w,
+/static/6136fcbe9aa248bf8638d1b578fcdbc7/f46e7/69fdc17c.png 340w,
+/static/6136fcbe9aa248bf8638d1b578fcdbc7/53918/69fdc17c.png 360w&apos; sizes=&apos;(max-width: 360px) 100vw, 360px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;본론&lt;/h2&gt;
+&lt;h3&gt;1. 단일 컴포넌트 내부의 거대한 트리 구조 지양&lt;/h3&gt;
+&lt;p&gt;리액트를 처음 시작했을 때 흔히 &lt;code class=&quot;language-text&quot;&gt;구조&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;구조 정리&lt;/code&gt; 등 많은 부분을 고려하지 않고 로직에 따라 &lt;code class=&quot;language-text&quot;&gt;하나의&lt;/code&gt; 거대한 컴포넌트를 생성 후 내부에 수많은 조건과 로직이 담겨있는 &lt;code class=&quot;language-text&quot;&gt;복잡한&lt;/code&gt; 코드를 짜게 될 수 있다.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 515px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/5b30fe707bad8dc5ebd7ad019ff852c2/70021/abb52135.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 137.05882352941177%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAYAAAB836/YAAAACXBIWXMAAAsTAAALEwEAmpwYAAACiklEQVRIx6VV63qiQAz1fVaLwDAgN0FQ1FZr3/9hsudEhqofFbf7I2acS5KTk4RZsNqJyQ9ii4MUzafkm7NKWp9UYuybdCer9buk1YfqpDyKzfeqo6wTL6plEa7lzVQy8+xGgrSTCBcyGAhWWzHFUcXiQZC0evENj6j52OvXj0KjMx4yQh8P/yxzmQelzP0Cuuh1qRcX1Dy7kUV43dNzFyEXJjtIXJ0Q1UFCRBpSA4qusz2cbXUdYI8pIGzDfaTLnftxc42QP4wyQd4sIBvmpSL0HS4BbrSBZ8BEaih8yDQssWYalrYZ0qAGHX5ejgA9rd6RaESWtvCOCECIzTv9H2BNEnQNhy5vd5DdpodIVlXPsLJ5lLz9VKK4tnCUbk6ohIs6ZmSjpKgx/AnBNCN49Dol7r4zOuTQlh8wutfNgcGHhz+Vyu3/AfISySYxEViMya6SAiKiSuWV6IYI3YEpD5IgR1n7JUV7QU47SSp0Sb1HmbA0ajCMRkiaUWMPpNTKqIeS8NEtjNjH46WtNdIwa3B+FRq8bbdxyCwblIlJt6PEzAN2Sy/PILtNspw3X4B5eomMScgs1Lg+a+mEPWQHa5yQJxG6gwhtl3CEgZAcOlnDCaXs4KBn3Lo2qwajoxFSs+FDdAENm5wjrdU2o7blVnVUYG/VTkNmKxlA9UGOFnbwTcQ8+AUpzGG2ueiUng85+g9SyHICgzTsRtO1DZ/38I8RUkeYKjEizPqJYwt8DvLvnE1Fd2+QrUdCUIcsnwTjKl5v1agtd6qVHGgO2EmDhOkuDt8MR8a/Qy7VYIGhwK/fVIc8hewGQ7w+6wfH6yfxYng4buQp5Ou07u4hvNDLowaZt8dR9BtDTv4CQTp+TDk6nL4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;abb52135&apos; title=&apos;abb52135&apos; src=&apos;/static/5b30fe707bad8dc5ebd7ad019ff852c2/70021/abb52135.png&apos; srcset=&apos;/static/5b30fe707bad8dc5ebd7ad019ff852c2/e7570/abb52135.png 170w,
+/static/5b30fe707bad8dc5ebd7ad019ff852c2/f46e7/abb52135.png 340w,
+/static/5b30fe707bad8dc5ebd7ad019ff852c2/70021/abb52135.png 515w&apos; sizes=&apos;(max-width: 515px) 100vw, 515px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;척보기에도 보기 거북한? 코드임을 느낄 수 있다. 위 코드에 대하여 몇가지의 개선점을 제시할 수 있다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;컴포넌트 트리&lt;/code&gt; 내부 긴 조건문을 따로 &lt;code class=&quot;language-text&quot;&gt;변수&lt;/code&gt;를 사용하는 방식으로 &lt;code class=&quot;language-text&quot;&gt;리팩토링&lt;/code&gt;한다.&lt;/li&gt;
+&lt;li&gt;트리의 각각의 조각들을 작은 &lt;code class=&quot;language-text&quot;&gt;컴포넌트&lt;/code&gt;로 &lt;code class=&quot;language-text&quot;&gt;분리&lt;/code&gt;한다.&lt;/li&gt;
+&lt;li&gt;이벤트에 매핑할 &lt;code class=&quot;language-text&quot;&gt;함수&lt;/code&gt; 를 컴포넌트 트리로부터 &lt;code class=&quot;language-text&quot;&gt;분리&lt;/code&gt;한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;위 사항들을 적용한 개선 코드는 아래와 같다.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 524px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/69a861464c6e529d899ed1fd7cb9e71e/6d924/ad8f2640.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 135.88235294117646%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAYAAAB836/YAAAACXBIWXMAAAsTAAALEwEAmpwYAAACvElEQVRIx51V6ZqbMAzM+7QJAWMImCMQyLXJdo/3fxZ3RtgsyWZpvv4QPpFG0kherNPOhpveZtXZbiAR5nG+t0lxlFGbYa7NQe6tk9YuVW1X8fahLALd2KS62E19kcvDQWPXmtLaYDL6n2YV8jCAorz9Y4v2arP6xeoCqOqzjYsDRiAtIUBJb5aqmlW6GA4am9ZXm1YncS+FAireuLVGKHRxcgofK/L74nLs4uMPvKzU/fpnV0eFYbqTi7/C0v6Oqm8yVTgnXumCyDSSkiIpzeHD1v27LSFF92ZLCF1ntjma5upCcZZQ+LNp5hf8UKnK9ojdCbTpbIRLEcLARHA9l9VpmG4UMo759iLWGVcFZYoGsK+QEDHq1hGMc06DBv8QKUMnLotCXKBCHnqUdIVz7y6NqfwA93azmRbaUGG2e7cZYmTaV6GIIhIoJtoQMQrTL3LPJWbhJymITTE7JKJB4BsoBTq6roHOx3Ka0YcIOVFZ/9CyXCQqL+PPM6XHDxtCcPPD9kfXnqplZZixk13eE3mGKvPNAd3E7D/tBoROkBhdoUGUL4jhEXTpnq6WMYackFNMSoImkSAJ0m1AG/ZBLdzrpPtEoA6rRBJm9sIGjTX32LXGLOviLH0xck2C5bQGWWWEBH4NCf3+ZC09AV1rREj3lBlcpGUSPZbKOAoqle+AEGKopJExNt2wj9HTalTICqj6T8gH3Buyzr3AoeM6SJzorTuf7jVThRWqpQeZEUPUMhFq11ilpok272xS9gOabIfzTuZEqhHbO4W1xKJAleTN6/C2OBRfxN4OiBxfB5SDfKsUqWckI2/fgBB0gUWNZ0Cz3yGORBmbHj2zx71WkGmHNin3Umk37UsWsEyESXl+olNv/9UcGokfK4YkX/1Hhdw1h/34RN7XrH+s5h6mm0dq7Sjh39tnHvM5+QuV2IH3KV9vyAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;ad8f2640&apos; title=&apos;ad8f2640&apos; src=&apos;/static/69a861464c6e529d899ed1fd7cb9e71e/6d924/ad8f2640.png&apos; srcset=&apos;/static/69a861464c6e529d899ed1fd7cb9e71e/e7570/ad8f2640.png 170w,
+/static/69a861464c6e529d899ed1fd7cb9e71e/f46e7/ad8f2640.png 340w,
+/static/69a861464c6e529d899ed1fd7cb9e71e/6d924/ad8f2640.png 524w&apos; sizes=&apos;(max-width: 524px) 100vw, 524px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;핵심: 컴포넌트 트리의 가독성을 가능한 최대한 향상시켜 해당 컴포넌트가 정확히 무엇을 하는지, 무엇을 렌더링하는지, 언제 하는지에 대해 파악을 쉽게 해야한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;2. 글로벌 스코프 단위의 Context 지양&lt;/h3&gt;
+&lt;p&gt;많은 상황에서 &lt;code class=&quot;language-text&quot;&gt;상태(state)&lt;/code&gt;와 &lt;code class=&quot;language-text&quot;&gt;컨텍스트(context)&lt;/code&gt; 의 경계가 모호해지는 경우가 많다. 하지만 엄연히 이 둘은 다르며 컨텍스트를 &lt;code class=&quot;language-text&quot;&gt;전체 상태관리(global state management)&lt;/code&gt; 용도로 사용하는 구조를 지양해야한다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;컨텍스트(context)는 관계있는 컴포넌트간 prop 을 공유할 수 있게 해주고, 프롭 드릴다운 이펙트(prop drill down effect) 에 대한 방어수단으로 사용할 수 있다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 493px; margin-bottom: 16px;&apos;&gt;
+      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/04842e6ba646609e3f553736109082e1/cf20c/72c53bbb.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
+    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 45.294117647058826%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAABSUlEQVQoz41S2XKCQBD0//+LGAERolWKGrwPEBDwPjt0J1qVl8Spanpmdq7doXK/30H8JY+Y/0Cp8NNqtWAYBtrtNprNJjzPE6rVquzr9YpXhEVV8Hg8Yrvd4nA4YL/fC/Ttdjvp5/MZp9PpFxOXy0U2Yx+igmEYYjweYzabIQgC6ZPJBP1+XzoxGAx0RiZGo5HsXq8npGmK2+32XXCxWCiZgd1uV/pwOITv+/IxodPpYD6fI45jNV6tVrIJDkTmtCrIqyZJgs1mg/V6LVAvikKc57l8r7ylCiqhHJld4xJZmZyUk7Dzcrn89pc2eTqdSudEPOPtoihS7HMp/mcAw7RRtR1Y3gfMhos3q473uoOG48C2bW29VqvB+bEtyxK7rgvTNNXoOWFRbjMsu8blZGleIEpSIc3y55XJfBb+DVwAfVmWyU/78Rxfbk+ndZoIcO0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;72c53bbb&apos; title=&apos;72c53bbb&apos; src=&apos;/static/04842e6ba646609e3f553736109082e1/cf20c/72c53bbb.png&apos; srcset=&apos;/static/04842e6ba646609e3f553736109082e1/e7570/72c53bbb.png 170w,
+/static/04842e6ba646609e3f553736109082e1/f46e7/72c53bbb.png 340w,
+/static/04842e6ba646609e3f553736109082e1/cf20c/72c53bbb.png 493w&apos; sizes=&apos;(max-width: 493px) 100vw, 493px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;실제 리액트 공식문서에서도 컨텍스트의 주된 용도는 다양한 레벨에 네스팅된 컴포넌트들에게 데이터를 전달하는 것이며, 컨텍스트를 사용하면 컴포넌트를 재사용하기 &lt;code class=&quot;language-text&quot;&gt;어려워지므로&lt;/code&gt; 꼭 필요할 때만 쓰라고 명시가 되어있다.&lt;/p&gt;
+&lt;p&gt;많은 레퍼런스를 찾아본 결과, 글로벌 상태(global state)는 전체 application의 상태들을 관리하기 위해 존재하지만, 전체 상태 관리를 위해 &lt;code class=&quot;language-text&quot;&gt;context provider&lt;/code&gt; 를 통해 전체 application 을 래핑(wrap)하는 구조는 피해야 한다고 하였다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;핵심: &lt;code class=&quot;language-text&quot;&gt;전역&lt;/code&gt;으로 상태관리를 해야하는 상황이라면 리덕스(redux), 리코일(recoil)과 같은 3rd party library 를 사용하고, Context API는 경계가 확실한 aplication 에서 각각의 파트에서 범위를 좁혀 사용하여야 한다.  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;3. 컴포넌트 트리 내에서 &lt;code class=&quot;language-text&quot;&gt;.map()&lt;/code&gt; 의 &lt;code class=&quot;language-text&quot;&gt;키(key)&lt;/code&gt;를 변수 &lt;code class=&quot;language-text&quot;&gt;인덱스(index)&lt;/code&gt; 를 사용하는 렌더링 지양&lt;/h3&gt;
+&lt;p&gt;몇몇 개발자들의 코드를 보면 아래와 같이 &lt;code class=&quot;language-text&quot;&gt;.map()&lt;/code&gt; 을 사용할 때 키 값으로 단순히 요소의 &lt;code class=&quot;language-text&quot;&gt;index&lt;/code&gt; 를 사용하는 경우가 있다. &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ListOfUsers&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; users &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;Pete&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Jhon&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Sarah&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ul&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;users&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; index&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;li key&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; index &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;name&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;li&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+              &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;ul&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;과연 괜찮은 방법일까...? 아니라고 생각한다.&lt;/h4&gt;
+&lt;p&gt;이유는 보통 컴포넌트 트리 내에서 &lt;code class=&quot;language-text&quot;&gt;.map()&lt;/code&gt; 을 사용할 때, 항상 &lt;code class=&quot;language-text&quot;&gt;불변&lt;/code&gt;의 &lt;code class=&quot;language-text&quot;&gt;간단한&lt;/code&gt; 배열만 사용한다는 보장이 없기 때문이다.
+리액트는 각 요소에 유니크(unique)한 key 값을 부여해 해당 요소가 추가되거나, 변경되거나 삭제되는 상황을 &lt;code class=&quot;language-text&quot;&gt;식별&lt;/code&gt;한다.&lt;/p&gt;
+&lt;p&gt;예시로 위와 같은 코드 형식에서 리스트에 &lt;code class=&quot;language-text&quot;&gt;첫번째&lt;/code&gt; 인덱스에 요소를 추가한다면 리액트는 예측되지 못한 행동으로 인식하여 매우 혼란스러워 한다.
+가능한 엘리먼트의 index 값보다는 실제 고유의 값을 사용하는 것이 바람직하다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;결론&lt;/h2&gt;
+&lt;p&gt;리액트는 하나의 문제를 해결할때도 많은 방식을 허용하기에 매력적이지만, 높은 퍼포먼스를 가진 application 을 만들기 위해서는 &lt;code class=&quot;language-text&quot;&gt;안티패턴&lt;/code&gt;을 최대한 피해야한다.  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Queue with JS]]></title><description><![CDATA[서론  는 먼저 온 소비자가 먼저 서비스를 받는 리소스에 대한 소비자 대기열이라 이해하면 편하다.  는 
 의 특징을 가지고 있다.  본론 Queue with normal array 예시 Queue with Linked List 예시]]></description><link>https://hwani.dev/js-queue/</link><guid isPermaLink="false">https://hwani.dev/js-queue/</guid><pubDate>Wed, 20 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Queue&lt;/code&gt; 는 먼저 온 소비자가 먼저 서비스를 받는 리소스에 대한 소비자 대기열이라 이해하면 편하다. &lt;code class=&quot;language-text&quot;&gt;Queue&lt;/code&gt; 는 &lt;code class=&quot;language-text&quot;&gt;FIFO(선입선출) - First In First Out&lt;/code&gt;
 의 특징을 가지고 있다.&lt;/p&gt;
@@ -2029,255 +2116,7 @@ loading 시간은 필연적으로 발생하며 대부분의 페이지를 한번�
 &lt;p&gt;Bundling 툴은 보통 코드를 압축하기에 이에따른 import 하는 과정에서 너무 많은 리소스를 낭비 할 수 있기에,
 이부분에 대해서는 code splitting 이 유용하게 쓰인다. &lt;/p&gt;
 &lt;p&gt;이 과정에서 동적으로 import() 함수를 쓰는 방법이 존재하지만, page transition 시간에 다른 예비 요소를 사용할 수 있기에
-나는 주로 Route 에 Suspense 와 lazy 를 사용하는 방법을 좋아한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JS - 형변환 주의하기]]></title><description><![CDATA[…]]></description><link>https://hwani.dev/careful-typecast/</link><guid isPermaLink="false">https://hwani.dev/careful-typecast/</guid><pubDate>Thu, 02 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
-&lt;p&gt;이전의 포스트에서 타입검사를 왜 조심해야 하는지에 대해 말해보았다.&lt;/p&gt;
-&lt;p&gt;가장 주요한 이유로는&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;자바스크립트가 부족한 언어이다.&lt;/li&gt;
-&lt;li&gt;자바스크립트가 너무 느슨하다.&lt;/li&gt;
-&lt;li&gt;자바스크립트가 너무 유연하다.&lt;/li&gt;
-&lt;li&gt;자바스크립트가 동적이다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;라고 생각을 할 수 있을지도 모른다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;본론&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
-      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/25352ab660f80c769886ee80a939d5d3/d2c78/f4615b5d.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
-    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 97.05882352941177%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAADbElEQVQ4y41UyXLbRhDlfzv/kBycQ1xaE1lMLJUVmblYshWSjizukCiAAEGK2IiVGADcLNuXZ3SjyJJTOeTQNQCmZ/r1e69REkIgSRPMkzlsw8YiXSBNUvi+D03VsEyXCMMQ0SyC53sYDAZQFAXT6RR01vVcJLMEIhKcU0qShD809SYacgOthxYnBX4AwzJQH9bhuR4foNWyLNi2jciPOCfxE/TGEm7UG76nJBIBc2KiNWrhZf8Yv0lHqCgVRkkIXstnuNAu8WH8AbIjY5ktkSUZrvQr9O0+Tu9Psd89gDJVsMgWKMUihggF6lodZel3HHZ/ZVRzMYcXeHgpHaM5bkK2ZGi2BhELxFHMnai2itqwhqPuERrjBtPDLRMSOlwZ/IXqqIbj2zJ0V8c6W+PWusUfd69QvitDtmXM0zkykeGt9pb3DnoH+FM+xyyege7iCx3HQRREiOMYi2TBlV+0XmA0HeHr/Cs6kw7+Hlb5IiI+iqJizSOMQsxmM0ZOwEq0qes6I6TLqdI6XUObatjr7mHkjfAp+8TIqCAderoy13GhMCMkDuMgxoVyiYpcyXks49a4w5fsCxRrgJ32LnRHRxqnCMKA0URhxM9spxzQ+f05qjmXq2yFUprmiUHAcTm8RGPSwKucs57ZY2RDd4idzg7G3pg9Sh1QLPPnR97X8UZ5g1QUrmAOiQfy0D/jayb+5O4Edb2OJC4Mrzkafsk5nXgTrNIVxEygptcgGRKqepXf41lBAyMk11MbkiVBcRRIpsTwN2hIqJE7wo83P2Gnu8v26Jhd5rmbr0QD8ckcGobBo+RMHVaRUFFFQk38ULIf+FglKzy/+RnPrn7AgzvBY/rIqMivrHoejJBGSVVVnlOaAmqR4qmahJK+ETJSfbezx1NDCtMe5W0R0k/ANE32YS03dXvSxjvtHVff+I0UJq761j0+Z5/ztY/WpPWdL9mLhDDLMn4Jg3DLYdtob5GRrciXzfwCUpzmmBTdKL7pZIuQRDFtE/NojpP+Kd5r73HYOSyIjgqU5MML9YJVJc780N9y/DS2tqF2O+Mu9nv7+Wwe4uz+jPmhqmf53+Y8n1VCRu39e1L+E6Fru/iofoTmaugYncKXIkEQBbh+uM6TBY/Xxh6bdRPf2WYzv+Q1mldSkquKovo69+MGyf+Jb6gmYaspeceuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;f4615b5d&apos; title=&apos;f4615b5d&apos; src=&apos;/static/25352ab660f80c769886ee80a939d5d3/ca1dc/f4615b5d.png&apos; srcset=&apos;/static/25352ab660f80c769886ee80a939d5d3/e7570/f4615b5d.png 170w,
-/static/25352ab660f80c769886ee80a939d5d3/f46e7/f4615b5d.png 340w,
-/static/25352ab660f80c769886ee80a939d5d3/ca1dc/f4615b5d.png 680w,
-/static/25352ab660f80c769886ee80a939d5d3/d2c78/f4615b5d.png 812w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;하지만 javascript equality table 이라고 검색해보면, 이러한 테이블인 나온다. 이처럼 기본적인 == equality operator 를 사용하면 많은 모순점이 생기기 마련이지만,&lt;/p&gt;
-&lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
-      &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/05697bc99a0729f687faf99c44ead744/93c28/b13259cc.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
-    &lt;span class=&apos;gatsby-resp-image-background-image&apos; style=&quot;padding-bottom: 95.29411764705883%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB6klEQVQ4y61Uy27bMBD0/9/rWxW0n5E/CFIDBmrYjmTFkPWySJGU7dynnk1XYOS47aGH1S7F5XA4y+XMew/nHMT7d69mrR3jEIKMi6JAXdcS819sxJkJWLiCdQ5lUcIYIxOHwwF5nqPrOrG+77Hf77Fer5FlGZqmkVz6tm1lE248610Pbzwefz5ikS0QTEDTNpLARF1wPB5RVRXKspQ5Nf5TE0DbW7zuXrHcL/Ft+R1pneISLuB/JpAZGdN/kGfiNZ4xIPVgA16qF3x9TpA3OQY3wFgjWqkRlLnxOI5HQNc7OeZluCCrMsyf5sjqTJh2phsXxl4tHgsgAxaAwpPR0A/C9OHHA9IqxcmdBFSZxAzj8QhIwdM0HavLxW/hDdsraLJIBJRMuRnn7zHk3HhkgurVYEJnO5z9SZgmV6a7endX0081VMCYAZmSGRl+uWrKQsWa3tWQgPHljTVSTQma/EXTEZAfXtYpQ00gKJltq61oqtVXTeNcAdxsNlitVtIRAvDJPSOjsz8LKKtP0KmmI0P2J3uTrRUznHoWitVnoea/NR38O+gHDXlU7dtYw6nX6pMZtSzaQhriRkM+OwQlQ32y4h3jiqqmZOadv5kbq8xOmTK827vG3tzHG4Z65D9p+M+9TEB9hf8H4C+1rIPu4ubCVQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&apos;gatsby-resp-image-image&apos; alt=&apos;b13259cc&apos; title=&apos;b13259cc&apos; src=&apos;/static/05697bc99a0729f687faf99c44ead744/ca1dc/b13259cc.png&apos; srcset=&apos;/static/05697bc99a0729f687faf99c44ead744/e7570/b13259cc.png 170w,
-/static/05697bc99a0729f687faf99c44ead744/f46e7/b13259cc.png 340w,
-/static/05697bc99a0729f687faf99c44ead744/ca1dc/b13259cc.png 680w,
-/static/05697bc99a0729f687faf99c44ead744/93c28/b13259cc.png 819w&apos; sizes=&apos;(max-width: 680px) 100vw, 680px&apos; style=&apos;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&apos; loading=&apos;lazy&apos; decoding=&apos;async&apos;&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;위처럼 === strict equality operator 를 사용한다면 벌써 많은 오류를 피할 수 있다.&lt;/p&gt;
-&lt;p&gt;하지만, 여기에서 끝나지 않고 &lt;code class=&quot;language-text&quot;&gt;JS의 형변환&lt;/code&gt; 그 자체에 주목할 필요는 있다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&apos;1&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
-&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
-&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// ture&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;위의 코드는 사람이 보면 &apos;느슨한 검사를 하고 있구나.&apos;&lt;/p&gt;
-&lt;p&gt;라고 생각을 할 수 있지만, 결국에는 &lt;code class=&quot;language-text&quot;&gt;형번환&lt;/code&gt; 이 일어난 케이스이다. 이는 JS 의 &lt;code class=&quot;language-text&quot;&gt;암묵적인 형변환&lt;/code&gt; 이라고도 부른다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;문자와 결합&apos;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// &apos;11 문자와 결합`&lt;/span&gt;
-
-&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;일반 문자열&apos;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false (빈 문자열)&lt;/span&gt;
-
-&lt;span class=&quot;token function&quot;&gt;parseInt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;9.999&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;위는 일전에 언급한 JS 의 암묵적인 형번환의 예시들이다.&lt;/p&gt;
-&lt;p&gt;잠시 다른 얘기를 하자면 마지막줄의 &lt;code class=&quot;language-text&quot;&gt;parseInt&lt;/code&gt; 에서 두번째 인자로 몇진수로 변환할 것인지에 따른 값을 정할 수 있지만, 많은분들이 default 값으로 10진수가 들어가겠지.. 하고 생략을 하는 경우를 종종 보았다.&lt;/p&gt;
-&lt;p&gt;하지만 내장된 &lt;code class=&quot;language-text&quot;&gt;parseInt&lt;/code&gt; 메서드의 기본 진수값은 꼭 10진수가 아니기 때문에 오류를 피하기위해서는 꼭 두번째 인자를 넣는것을 추천한다.&lt;/p&gt;
-&lt;p&gt;굳이 따지자면, 위의 세줄은 압묵적인 형변환이 일어나지만, 마지막 &lt;code class=&quot;language-text&quot;&gt;parseInt&lt;/code&gt;는 누가봐도 형변환을 명시적으로 표현하였기 때문에 압묵적이지만은 않다고 말할수 있다.&lt;/p&gt;
-&lt;p&gt;결론은 압묵적인 형변환은 본인도 헷갈릴 수 있고, 팀원들에게도 혼란을 초래할 수 있기 때문에, 명시적인 형변환을 지향해야 한단는 점이다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token function&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;문자와 결합&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// &apos;11 문자와 결합`&lt;/span&gt;
-
-&lt;span class=&quot;token function&quot;&gt;Boolean&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;일반 문자열&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;Boolean&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false (빈  문자열)&lt;/span&gt;
-
-&lt;span class=&quot;token function&quot;&gt;parseInt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;9.999&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;이런식으로 명시적인 형변환을 사용 할 수 있다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;결론&lt;/h2&gt;
-&lt;p&gt;자바스크립트에서 사용자가 형변환을 하였을때는 &lt;code class=&quot;language-text&quot;&gt;명시적인 형변환&lt;/code&gt; 이라고 할 수 있다.&lt;/p&gt;
-&lt;p&gt;하지만 사용자가 아닌, JS 엔진이 형변환을 자동적으로 하였을때는 &lt;code class=&quot;language-text&quot;&gt;암시적인 형변환&lt;/code&gt; 이라고 할 수 있다.&lt;/p&gt;
-&lt;p&gt;우리는 사람이 코드를 작성하는 것이기 때문에, 예측가능한 &lt;code class=&quot;language-text&quot;&gt;명시적인 형변환&lt;/code&gt; 을 지향해야한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JS - eqeq 줄이기]]></title><description><![CDATA[서론  란 JS의 를 뜻한다. mdn 문서에 따르면  두개의 equal signs 은 그냥  라고 부르고,  , 즉 세개의 equal sign…]]></description><link>https://hwani.dev/no-eqeq/</link><guid isPermaLink="false">https://hwani.dev/no-eqeq/</guid><pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;eqeq&lt;/code&gt; 란 JS의 &lt;code class=&quot;language-text&quot;&gt;동등 연산자&lt;/code&gt;를 뜻한다.&lt;/p&gt;
-&lt;p&gt;mdn 문서에 따르면 &lt;code class=&quot;language-text&quot;&gt;==&lt;/code&gt; 두개의 equal signs 은 그냥 &lt;code class=&quot;language-text&quot;&gt;equality operator&lt;/code&gt; 라고 부르고, &lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;===&lt;/code&gt;, 즉 세개의 equal sign 은 &lt;code class=&quot;language-text&quot;&gt;strict equality opeartor&lt;/code&gt; 라고 부른다. &lt;/p&gt;
-&lt;p&gt;이 둘은 무시 할 수 없는 크나큰 차이를 불러 일으킨다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;본론&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&apos;1&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
-&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;자바스크립트를 보통 &apos;미개한 언어이다.&apos; 혹은 &apos;헷갈리는 언어이다&apos; 라고 생각하시는 분들은 아마 이러한 상황을 겪어본 분들일지도 모른다.&lt;/p&gt;
-&lt;p&gt;동등 연산자는 형변환, 즉 &lt;code class=&quot;language-text&quot;&gt;type casting&lt;/code&gt;을 불러 일으킨다.&lt;/p&gt;
-&lt;p&gt;위의 예시처럼 동등연산자를 &lt;code class=&quot;language-text&quot;&gt;strict equlaity operator&lt;/code&gt; 가 아닌, 일반 &lt;code class=&quot;language-text&quot;&gt;equality operator&lt;/code&gt; 를 사용한다면, 이렇게 위험한 type casting 이 발생 할 수 있다.&lt;/p&gt;
-&lt;p&gt;어떻게 string 과 number 를 비교하는데 true 가 나오고
-number 와 boolean 을 비교하는데 true 가 나올 수 있단말인가!&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token string&quot;&gt;&apos;1&apos;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false&lt;/span&gt;
-&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;그러므로 위처럼 두개의 항을 비교할 때에는 &lt;code class=&quot;language-text&quot;&gt;strict equality operator&lt;/code&gt; 를 사용하는것을 추천한다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; inputNum &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;#inputNum&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputNum&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// &apos;0&apos; (string)&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputNum&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;the Number is Zero&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
-  &lt;span class=&quot;token comment&quot;&gt;// passed&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;위처 input 값 자체가 string format 을 뱉어내기 때문에
-strict equality operator 로 if 연산을 하면 무시해버리게 된다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; inputNum &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;#inputNum&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputNum&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// &apos;0&apos; (string)&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputNum&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;the Number is Zero&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
-  &lt;span class=&quot;token comment&quot;&gt;// the Number is Zero&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;하지만, 이미 JS의 이런 특성을 파악한 개발자들은 이를 역이용 하여 일반 equality opearator 로 비교하는 방법 또한 생각해낼 수 있지만, 이는 팀원들의 입장에서는 오류를 초래할 수 있기때문에 좋은 방법이라고만은 생각이 들지 않는다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; inputNum &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;#inputNum&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputNum&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// &apos;0&apos; (string)&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;Number&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;inputNum&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;the Number is Zero&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
-  &lt;span class=&quot;token comment&quot;&gt;// the Number is Zero&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;그러므로 어떻게든 수동으로라도 형변환을 해서 위와같이 안전하게 strict equality operator 를 사용하는것을 추천한다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;결론&lt;/h2&gt;
-&lt;p&gt;다른언어에서 동등연산자로 쓰이는 &lt;code class=&quot;language-text&quot;&gt;==&lt;/code&gt; (equality operator)  는 &lt;/p&gt;
-&lt;p&gt;JS 에서는 일반, 혹은 느슨한 동등연산자로 불리우며, 이는 강제로 typecasting 을 불러 일으키기 때문에,&lt;/p&gt;
-&lt;p&gt;가능하면 이를 지양하는 방식을 택하고, 수동으로 자신이 형변환을 해야하는 상황에 처하더라도 &lt;code class=&quot;language-text&quot;&gt;===&lt;/code&gt; (strict equality operator) 를 지향해야한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JS - undefined & null]]></title><description><![CDATA[서론  와 , 결국 값으로 쓰기에는 둘다 무언가 없다 라는 것을 의미한다. 인터넷만 봐도 이 둘의 차이때문에 혼란을 겪는 사람이 많고, 이에따라 이를 풍자하는 밈들 또한 많다. 언어적으로 더 엄격하다면 이러한 일도 없겠지만 JS…]]></description><link>https://hwani.dev/undefined-null/</link><guid isPermaLink="false">https://hwani.dev/undefined-null/</guid><pubDate>Tue, 30 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;undefined&lt;/code&gt; 와 &lt;code class=&quot;language-text&quot;&gt;null&lt;/code&gt;, 결국 값으로 쓰기에는 둘다 무언가 없다 라는 것을 의미한다.&lt;/p&gt;
-&lt;p&gt;인터넷만 봐도 이 둘의 차이때문에 혼란을 겪는 사람이 많고, 이에따라 이를 풍자하는 밈들 또한 많다.&lt;/p&gt;
-&lt;p&gt;언어적으로 더 엄격하다면 이러한 일도 없겠지만 JS 에서는 헷갈릴 가능성이 높다고 생각한다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;본론&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;123&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 123&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;null&lt;/code&gt;을 뒤집어보면은 true 라고 표현하지만,&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;null&lt;/code&gt;을 &lt;code class=&quot;language-text&quot;&gt;boolean&lt;/code&gt;으로 바꾸면 false 라고 표현한다.&lt;/p&gt;
-&lt;p&gt;그렇다면 null 은 false 인가? 그것도 아니라고 한다.&lt;/p&gt;
-&lt;p&gt;그렇다면 !null 은 true 인가? 맞다고 한다.&lt;/p&gt;
-&lt;p&gt;머리가 지끈지끈하다.&lt;/p&gt;
-&lt;p&gt;또한, null 은 수학적으로는 &lt;code class=&quot;language-text&quot;&gt;비어있다&lt;/code&gt; 라는 state 를 표현하기에 0으로 간주한다.&lt;/p&gt;
-&lt;p&gt;때문에 null 은 비어있다 를 명시적으로 표현한다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; variable&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; variable &lt;span class=&quot;token comment&quot;&gt;// undefined&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;undefined&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// NaN&lt;/span&gt;
-
-&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;undefined&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;그렇다면 undefined 는? &lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;아무것도 지정하지 않았을 때에 기본값&lt;/code&gt; 이라고 생각이 든다.&lt;/p&gt;
-&lt;p&gt;변수를 선언하였지만 이에 값을 할당하지 않았다 이다.&lt;/p&gt;
-&lt;p&gt;하지만 연산을 시도해 보았을 때 null 은 0 으로 간주되었지만, undefined 는 NaN 즉 not a number 라고 하기에 더더욱 헷갈릴 수 있다.&lt;/p&gt;
-&lt;p&gt;또한 !undefined 는 또 true 라고 값이 찍힌다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;undefined&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;undefined&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false&lt;/span&gt;
-&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;undefined&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;위의 예시를 보면 정말 머리가 아플정도로 헷갈리고 모순점들또한 머리에 생기기 마련이다.&lt;/p&gt;
-&lt;p&gt;그러므로, undefined 와 null 을 많이 활용하는 코드를 작성하기 보다는, 하나의 팀에서 둘중에 하나만 선택하여 컨벤션 자체를 만드는 것이 좋다고 생각한다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;결론&lt;/h2&gt;
-&lt;p&gt;undefined 와 null 의 차이점이 많지만,&lt;/p&gt;
-&lt;p&gt;undefined 와 null 은 결국 값이 없거나 정의되지 않다는 차이점이 있고,&lt;/p&gt;
-&lt;p&gt;undefined 는 NaN 이지만 null 은 숫자적으로 표현하였을때 0에 가깝다.&lt;/p&gt;
-&lt;p&gt;undefined 의 type 은 undefined 이지만 null 의 type 은 object 이다.&lt;/p&gt;
-&lt;p&gt;그래서, 결국 이 둘의 쓰임을 조심해야만 한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JS - 타입 검사]]></title><description><![CDATA[서론 간단한 앱을 개발할때도 타입검사를 흔하게 사용한다. JS 에서 타입을 검사할때 제일먼저 떠오르는 것은  연산자 이다. typeof 는 우항에 있는 피연산자를 평가한 후, 문자열로 반환해준다.
-하지만, typeof…]]></description><link>https://hwani.dev/types-of-javascript/</link><guid isPermaLink="false">https://hwani.dev/types-of-javascript/</guid><pubDate>Mon, 29 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
-&lt;p&gt;간단한 앱을 개발할때도 타입검사를 흔하게 사용한다. JS 에서 타입을 검사할때 제일먼저 떠오르는 것은 &lt;code class=&quot;language-text&quot;&gt;typeof&lt;/code&gt; 연산자 이다.&lt;/p&gt;
-&lt;p&gt;typeof 는 우항에 있는 피연산자를 평가한 후, 문자열로 반환해준다.
-하지만, typeof 는 치명적인 단점이 있는데, 모든것을 커버해주지 못한다는 것이다.&lt;/p&gt;
-&lt;p&gt;이뜻은, Primitive 원시값, Reference 자료형에 해당하는 객체들이 존재하는데, 원시값은 불변하기에 타입검사를 할때, 괜찮을 수 있지만, &lt;code class=&quot;language-text&quot;&gt;array&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;function&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;date&lt;/code&gt; 등이 Reference type 에 해당하는 object 로 치부되기에, &lt;code class=&quot;language-text&quot;&gt;typeof&lt;/code&gt; 연산자로 타입검사를 할 때 모순점이 생긴다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;본론&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myFunc&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;myClass&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; str &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;문자열&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; myFunc &lt;span class=&quot;token comment&quot;&gt;// &apos;function&apos;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; myClass &lt;span class=&quot;token comment&quot;&gt;// &apos;function&apos;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; str &lt;span class=&quot;token comment&quot;&gt;// &apos;object&apos;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;문자열&apos;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// &apos;string&apos;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;123&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// &apos;number&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;위와같이 primitive type 은 typeof 연산자로 검사가 가능하지만, typeof 연산자로 reference type 을 검사 할 때는 굉장히 많은 위험을 동반한다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// &apos;object&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;가장 문제가 되는 녀석은 &lt;code class=&quot;language-text&quot;&gt;null&lt;/code&gt; 이다. null 의 type 을 object 로 찍어내는 것은 이해가 안가는 부분이 존재하고, 사실 이는 javascript 가 공식적으로 인정한 &lt;code class=&quot;language-text&quot;&gt;오류&lt;/code&gt; 이다. js 가 발전을 하면서 언어적으로 이는 수정을 할 수 없다고 판단을 하였다고 한다.&lt;/p&gt;
-&lt;p&gt;Javascript 는 &lt;code class=&quot;language-text&quot;&gt;동적&lt;/code&gt; 으로 변하는 언어이지만, 위험성은 &lt;code class=&quot;language-text&quot;&gt;type&lt;/code&gt; 까지 동적이 된다는 점이다.&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;typeof&lt;/code&gt; 의 단점을 커버하기위해 &lt;code class=&quot;language-text&quot;&gt;instanceof&lt;/code&gt; 라는 일종의 연산자의 한 종류를 사용 할 수 있는데, 이 연산자는 객체의 prototype chain 을 검사 할 수 있게 해준다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;name&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; age&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; name&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;age &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; age&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; Hwani &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Person&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;hwani&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;24&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; Lee &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;hwani&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  age&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;24&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-Hwani &lt;span class=&quot;token keyword&quot;&gt;instanceof&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Person&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
-Lee &lt;span class=&quot;token keyword&quot;&gt;instanceof&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Person&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;여기에서 감을 잡을 수 있다. typeof 는 불변한 primitive value 들을 검사 할 수 있는데, instanceof 는 객체에 대해 확인하기에 요긴하다.&lt;/p&gt;
-&lt;p&gt;하지만 여기서도 함정이 존재한다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; arr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; date &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-arr &lt;span class=&quot;token keyword&quot;&gt;instanceof&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Array&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
-func &lt;span class=&quot;token keyword&quot;&gt;instanceof&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Function&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
-date &lt;span class=&quot;token keyword&quot;&gt;instanceof&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Date&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;이렇게만 보면 instaceof 라는 연산자를 사용하여 좌항과 우항을 잘 비교하고 있는것처럼 보이지만&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; arr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; date &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-arr &lt;span class=&quot;token keyword&quot;&gt;instanceof&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Object&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
-func &lt;span class=&quot;token keyword&quot;&gt;instanceof&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Object&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;
-date &lt;span class=&quot;token keyword&quot;&gt;instanceof&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Object&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;결국 reference type 이기 때문에 &lt;code class=&quot;language-text&quot;&gt;prototype chain&lt;/code&gt; 을 타보면 최상위는 &lt;code class=&quot;language-text&quot;&gt;object&lt;/code&gt; 라는 결론에 도달하게 된다.&lt;/p&gt;
-&lt;p&gt;때문에, 더더욱 타입 검사를 하기에 어려움이 생긴다.&lt;/p&gt;
-&lt;p&gt;위의 &lt;code class=&quot;language-text&quot;&gt;typeof&lt;/code&gt; 연산자와 &lt;code class=&quot;language-text&quot;&gt;instanceof&lt;/code&gt; 연산자의 단점 때문에 다른 하나의 방법이 더 존재한다.
-&lt;code class=&quot;language-text&quot;&gt;object 의 prototype chain&lt;/code&gt; 자체를 역이용하는 방법이다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; arr &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; date &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-Object
-  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;prototype
-  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toString&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;string&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; 
-&lt;span class=&quot;token comment&quot;&gt;// &apos;[object String]&apos;&lt;/span&gt;
-
-Object
-  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;prototype
-  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toString&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;arr&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;// &apos;[object Array]&apos;&lt;/span&gt;
-
-Object
-  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;prototype
-  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toString&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;func&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;// &apos;[object Function]&apos;&lt;/span&gt;
-
-Object
-  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;prototype
-  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toString&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;date&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;// &apos;[object Date]&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;이런식으로 reference type 까지 검사 할 수 있다.&lt;/p&gt;
-&lt;p&gt;하지만 이 방식또한 무적이라고 말 할 수 없기 때문에 타입을 검사할 때 하나하나 노하우를 쌓아가는 것이 중요하다.&lt;/p&gt;
-&lt;p&gt;주로 나는 &lt;code class=&quot;language-text&quot;&gt;stack overflow&lt;/code&gt; 를 이용하는데 이때, 검색 키워드는 &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;javascript is array&lt;/li&gt;
-&lt;li&gt;javascript is function&lt;/li&gt;
-&lt;li&gt;javascript is date&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;와 같이 검색하면 주로 많은 답변이 나온다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;결론&lt;/h2&gt;
-&lt;p&gt;자바스크립트는 동적을 타입을 가진 언어이다.&lt;/p&gt;
-&lt;p&gt;그렇기 때문에 타입 검사가 어렵다. &lt;/p&gt;
-&lt;p&gt;많은 타입 검사가 존재하기 때문에 다 외우기 보다는 검색을 통하여 타입 검사를 체크하는 방법을 추천한다.&lt;/p&gt;
-&lt;p&gt;타입 검사를 할 때에는 항상 &lt;code class=&quot;language-text&quot;&gt;primitive type&lt;/code&gt; 과 &lt;code class=&quot;language-text&quot;&gt;reference type&lt;/code&gt; 을 잘 생각하며 유의해야하며 &lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;typeof&lt;/code&gt; 연산자는 무적이 아니다. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[개인자산 체크 with Vanilla JS]]></title><description><![CDATA[Intro 5번째 Mini Vanilla Js Project 이다. 이번에는  라는  를 사용하여 개인자산 체크 기능을 만들어보았다! Main 소스코드 liveDemo  Conclusion JS…]]></description><link>https://hwani.dev/personal-information-list/</link><guid isPermaLink="false">https://hwani.dev/personal-information-list/</guid><pubDate>Sun, 28 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Intro&lt;/h2&gt;
+나는 주로 Route 에 Suspense 와 lazy 를 사용하는 방법을 좋아한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[개인자산 체크 with Vanilla JS]]></title><description><![CDATA[Intro 5번째 Mini Vanilla Js Project 이다. 이번에는  라는  를 사용하여 개인자산 체크 기능을 만들어보았다! Main 소스코드 liveDemo  Conclusion JS…]]></description><link>https://hwani.dev/personal-information-list/</link><guid isPermaLink="false">https://hwani.dev/personal-information-list/</guid><pubDate>Sun, 28 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Intro&lt;/h2&gt;
 &lt;p&gt;5번째 Mini Vanilla Js Project 이다.&lt;/p&gt;
 &lt;p&gt;이번에는 &lt;code class=&quot;language-text&quot;&gt;Random User Generator-API&lt;/code&gt; 라는 &lt;code class=&quot;language-text&quot;&gt;Third-party api&lt;/code&gt; 를 사용하여 개인자산 체크 기능을 만들어보았다!&lt;/p&gt;
 &lt;hr&gt;
@@ -2490,108 +2329,7 @@ form&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class
   &lt;span class=&quot;token function&quot;&gt;checkLength&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;token function&quot;&gt;isValidEmail&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;token function&quot;&gt;checkPasswordsMatch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; password2&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[JS - 호이스팅 주의하기]]></title><description><![CDATA[…]]></description><link>https://hwani.dev/no-hoisting/</link><guid isPermaLink="false">https://hwani.dev/no-hoisting/</guid><pubDate>Tue, 23 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;호이스팅이란?&lt;/h2&gt;
-&lt;p&gt;호이스팅을 간단하게 말하자면 런타임시에 &lt;code class=&quot;language-text&quot;&gt;선언&lt;/code&gt;과 &lt;code class=&quot;language-text&quot;&gt;할당&lt;/code&gt;이 분리된 것을 뜻한다.&lt;/p&gt;
-&lt;p&gt;런타임시기는 프로그램이 동작 할 때를 의미한다.&lt;/p&gt;
-&lt;p&gt;코드를 잘성할 때는 이 스코프는 이렇게 동작할 것이다. 라고 예상을 하는데,
-실상 런타임시에는 그렇게 동작하지 않을 때가 있다.&lt;/p&gt;
-&lt;p&gt;해당 현상중의 하나가 &lt;code class=&quot;language-text&quot;&gt;호이스팅&lt;/code&gt; 인데, 호이스팅은 &lt;code class=&quot;language-text&quot;&gt;var&lt;/code&gt;로 선언한 변수 초기화가 제대로 되어있지 않았을때, &lt;code class=&quot;language-text&quot;&gt;undefined&lt;/code&gt; 상태로 코드의 상단으로 끌어올려지는 것을 뜻한다.&lt;/p&gt;
-&lt;p&gt;물론 &lt;code class=&quot;language-text&quot;&gt;let &amp;amp; const&lt;/code&gt; 를 사용한다면 이러한 현상을 잘 겪지 않겠지만 (TDZ)
-&lt;code class=&quot;language-text&quot;&gt;var&lt;/code&gt;에서는 종종 일어난다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;예시&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; global &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;outer&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;global&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// undefined&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; global &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  
-  &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;inner&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; global &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;global&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 10&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-  
-  &lt;span class=&quot;token function&quot;&gt;inner&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  
-  global &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;global&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 1&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token function&quot;&gt;outer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;위의 코드가 호이스팅이 동작한 사례라고 생각한다.&lt;/p&gt;
-&lt;p&gt;선언과 할당 부분이 메모리 공간을 선언하기전에, 미리 할당을 하기때문에 이러한 일이 발생한다.&lt;/p&gt;
-&lt;h2&gt;쉬운예시&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;duplicatedVar&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; a&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  
-  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// undefined&lt;/span&gt;
-  
-  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  
-  console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// 100&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;duplicatedVar&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;var 는 중복 선언이 가능하고, 중복 선언해도 오류 없이 undefined 를 반환한다.
-원래 다른 언어였다면, 이 코드는 에러를 반환한다는 예측을 할텐데, 예측과 다르게 런타임 시에 undefined 를 리턴하기에
-위험할 수 있다.&lt;/p&gt;
-&lt;h2&gt;골때리는 예시&lt;/h2&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; sum&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;typeof&lt;/span&gt; sum&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// function&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;콘솔로 찍어보니, 변수가 아닌 함수라고 말한다. 결국 아래에 위치한 함수조차도 hoisting 이 되었다는 뜻이다.
-함수 선언문이 변수를 뒤집어 엎어버린다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;결론&lt;/h2&gt;
-&lt;p&gt;호이스팅은 런타임시에 바로 선언을 최상단으로 끌어올려 줌으로써, 문제는 코드를 작성할 때 예측하지 못한 실행결과를 노출하게 된다. 이러한 예측하지 못하는 상황들을 탈피하기 위해 var 를 지양한다.&lt;/p&gt;
-&lt;p&gt;또한 함수또한 호이스팅이 되고, 이를 탈피하기 위해서는 함수 표현식을 사용하는 방법이 있다.&lt;/p&gt;
-&lt;p&gt;let 과 const 를 지향하자!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JS - 임시변수 제거하기]]></title><description><![CDATA[임시변수란? 자바스크립트를 다룰때, 기존의 Scope 를 다룰때,   을 사용하지 말고,   또한 피해야 한다고 들었다. 임시변수란, Scope…]]></description><link>https://hwani.dev/no-temporary-variable/</link><guid isPermaLink="false">https://hwani.dev/no-temporary-variable/</guid><pubDate>Mon, 22 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;임시변수란?&lt;/h2&gt;
-&lt;p&gt;자바스크립트를 다룰때, 기존의 Scope 를 다룰때, &lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;전역공간&lt;/code&gt; 을 사용하지 말고,  &lt;code class=&quot;language-text&quot;&gt;var&lt;/code&gt; 또한 피해야 한다고 들었다.&lt;/p&gt;
-&lt;h4&gt;임시변수란, Scope 안에서 전역변수처럼 활용되는 친구를 생각한다.&lt;/h4&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;getObj&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    
-    result&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;title &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;tmp_variable&apos;&lt;/span&gt;
-    result&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;text &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;wow&apos;&lt;/span&gt;
-    
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; result&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;위의 코드의 &lt;code class=&quot;language-text&quot;&gt;const result = {}&lt;/code&gt; 도 마찬가지이다.
-어떻게 보면 이것도 const 니까 문제 없을까? 라고 생각 할 수 있지만, 이 임시 객체도 함수가 커지 &lt;code class=&quot;language-text&quot;&gt;전역공간&lt;/code&gt; 이나 다름없는 상황이 발생할 수 있다.&lt;/p&gt;
-&lt;p&gt;그렇게 되면 위험한 상황이 나올 수 있다. 임시변수를 만들었을때, 누군가가 같이 일하는 팀원이 미래의 내가 유혹을 받을 수 있다는 말이다.&lt;/p&gt;
-&lt;p&gt;그러면 이 임시 변수를 어떻게 접근 할까에 대해서는, 함수를 작게 쪼개는 방법도 있지만, &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;getObj&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      title&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;tmp_variable&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-      text&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;wow&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; result&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;이런식으로 간소화 할 수도 있다. 일단은 코드가 명확해지고,
-아까는 굳이 선언 후 접근하는 과정으로 나뉘어있었기 때문에,
-누구나 고칠 수 있는 느낌이 들었다.&lt;/p&gt;
-&lt;p&gt;하지만, 더 명확하게 바꿀 수 있는 방법이 뭐가 있을까?&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;getObj&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      title&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;tmp_variable&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-      text&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;wow&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;이런식으로 바로 반환하는는 방법또한 존재한다.&lt;/p&gt;
-&lt;p&gt;그러면, 이 함수는 누가봐도 &lt;code class=&quot;language-text&quot;&gt;side-effect&lt;/code&gt; 가 많지않은, 함수로 볼 수 있다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;결론&lt;/h2&gt;
-&lt;h4&gt;임시변수는 좋지 않다.&lt;/h4&gt;
-&lt;p&gt;임시변수를 제거해야 하는 이유는&lt;/p&gt;
-&lt;p&gt;명령형으로 가득한 조직이기 때문에, 어디서 어떻게 잘못되었는지 디버깅이 어려워진다.&lt;/p&gt;
-&lt;p&gt;또한, 타인이 추가적인 코드를 덧붙이고 싶은 유혹에 빠지기 쉽다. 결국 코드의 유지보수가 어려워진다는 것이다.&lt;/p&gt;
-&lt;p&gt;이에따라 해결책은, 함수를 나누거나, 바로 반환하거나, &lt;code class=&quot;language-text&quot;&gt;map&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;filter&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;reduce&lt;/code&gt; 와 같은 고차 함수를 사용하는 것이다.&lt;/p&gt;
-&lt;p&gt;또한, 선언형 코드로 바꾸는 방식을 사용해보든 것이다. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[[BOJ] 1654 랜선 자르기 (Node.js)]]></title><description><![CDATA[백준 1653번 링크 풀이 처음에는 해멧지만, 이후에 
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[BOJ] 1654 랜선 자르기 (Node.js)]]></title><description><![CDATA[백준 1653번 링크 풀이 처음에는 해멧지만, 이후에 
 전형적인 이분탐색 문제라고 판단이 들었다. 이분탐색이란, 탐색 범위를 두 부분으로 분할해서 찾는 방식으로,    값을 잡아서 탐색한다.]]></description><link>https://hwani.dev/baekjoon-1654/</link><guid isPermaLink="false">https://hwani.dev/baekjoon-1654/</guid><pubDate>Mon, 22 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/1654&quot; target=&quot;_blank&quot;&gt;백준 1653번 링크&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;풀이&lt;/h2&gt;
 &lt;p&gt;처음에는 해멧지만, 이후에
@@ -2625,50 +2363,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 	&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
 	console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;max&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[스타벅스 메뉴관리 with vanilla JS]]></title><description><![CDATA[결과물 미리보기  CheckLists 메뉴에 새로운 메뉴를 확인 버튼 또는 엔터키 입력으로 추가한다. 메뉴가 추가되고 나면, input…]]></description><link>https://hwani.dev/starbucks-menu-1/</link><guid isPermaLink="false">https://hwani.dev/starbucks-menu-1/</guid><pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;결과물 미리보기&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;123.gif&quot;&gt;&lt;/p&gt;
-&lt;h2&gt;CheckLists&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;
-&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 메뉴에 새로운 메뉴를 확인 버튼 또는 엔터키 입력으로 추가한다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 메뉴가 추가되고 나면, input은 빈 값으로 초기화한다.&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 사용자 입력값이 빈 값이라면 추가되지 않는다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;
-&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 메뉴의 수정 버튼을 눌러 메뉴 이름 수정할 수 있다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 메뉴 수정시 브라우저에서 제공하는 &lt;code class=&quot;language-text&quot;&gt;prompt&lt;/code&gt; 인터페이스를 활용한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;
-&lt;p&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 메뉴 삭제 버튼을 이용하여 메뉴 삭제할 수 있다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 메뉴 삭제시 브라우저에서 제공하는 &lt;code class=&quot;language-text&quot;&gt;confirm&lt;/code&gt; 인터페이스를 활용한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 총 메뉴 갯수를 count하여 상단에 보여준다.&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; &lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/API/Window/localStorage&quot;&gt;localStorage&lt;/a&gt;에 데이터를 저장하여 새로고침해도 데이터가 남아있게 한다.&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 지점별로 메뉴판을 관리할 수 있게 만든다.&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; checked disabled&gt; 페이지에 최초로 접근할 때는 국민대 지점 메뉴가 먼저 보이게 한다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;왜 했는가?&lt;/h2&gt;
-&lt;p&gt;리액트를 공부하며 상태관리에 대해 생각하던 중, 문득 궁금함이 생겼다.&lt;/p&gt;
-&lt;p&gt;동적인 &lt;code class=&quot;language-text&quot;&gt;web application&lt;/code&gt; 을 만들기 위해 리액트를 공부중 이지만,&lt;/p&gt;
-&lt;p&gt;결국 리액트도 &lt;code class=&quot;language-text&quot;&gt;javascript library&lt;/code&gt; 일뿐일텐데,&lt;/p&gt;
-&lt;p&gt;이를 vanilla JS 로 내가 비슷하게라도 흉내내어 리액트 없이 &lt;code class=&quot;language-text&quot;&gt;동적으로 state 관리&lt;/code&gt;란 불가능한것일까..?&lt;/p&gt;
-&lt;p&gt;찾아보니, &lt;code class=&quot;language-text&quot;&gt;localStorage&lt;/code&gt; 라는 개념이 존재했고, 이를 사용하여 state 관리를 해보았다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;후기&lt;/h2&gt;
-&lt;p&gt;결국 구현한건 기본적인 CRUD 일뿐이지만, vanillaJS 를 통해서도 최대한 리액트에서 활용하고 작동하는 방식과&lt;/p&gt;
-&lt;p&gt;유사하게 만들어 보려고 노력했었다. 🔥&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;데모링크&lt;/h2&gt;
-&lt;p align=&quot;middle&quot;&gt;
-  &lt;a href=&quot;https://optimistic-blackwell-8e5882.netlify.app&quot; target=&quot;_blank&quot;&gt;🖥️ 데모 링크&lt;/a&gt;
-&lt;/p&gt;</content:encoded></item><item><title><![CDATA[블로그 SEO]]></title><description><![CDATA[SEO 란? SEO 는  의 약자로써, 구글 등 여러 Search Engine 의 상위 노출을 위한  검색엔진 최적화이다. 과정 SEO…]]></description><link>https://hwani.dev/blog-SEO/</link><guid isPermaLink="false">https://hwani.dev/blog-SEO/</guid><pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;SEO 란?&lt;/h2&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[블로그 SEO]]></title><description><![CDATA[SEO 란? SEO 는  의 약자로써, 구글 등 여러 Search Engine 의 상위 노출을 위한  검색엔진 최적화이다. 과정 SEO…]]></description><link>https://hwani.dev/blog-SEO/</link><guid isPermaLink="false">https://hwani.dev/blog-SEO/</guid><pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;SEO 란?&lt;/h2&gt;
 &lt;p&gt;SEO 는 &lt;code class=&quot;language-text&quot;&gt;Search Engine Optimization&lt;/code&gt; 의 약자로써, 구글 등 여러 Search Engine 의 상위 노출을 위한 &lt;/p&gt;
 &lt;p&gt;검색엔진 최적화이다.&lt;/p&gt;
 &lt;hr&gt;
@@ -2739,73 +2434,4 @@ Host: https://hwani.dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;추가 사항이 있다면, 추가적으로 연재할 계획이다! &lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Reference&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://neilpatel.com/what-is-seo/&quot; target=&quot;_blank&quot;&gt;What Is SEO? (Learn How to Do It in 5 Minutes)&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JS - 전역 공간 사용 최소화]]></title><description><![CDATA[전역공간을 왜 사용하면 안되는지, 혹은 왜 사용을 최소화 해야하는지 알아보자. 전역공간 사용을 최소화해라 라는 말 또한 JS…]]></description><link>https://hwani.dev/no-global/</link><guid isPermaLink="false">https://hwani.dev/no-global/</guid><pubDate>Sat, 20 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;전역공간을 왜 사용하면 안되는지, 혹은 왜 사용을 최소화 해야하는지 알아보자.&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;전역공간 사용을 최소화해라&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;라는 말 또한 JS 공부를 하며 많이 들었던 내용이고,
-해당 이유에 대해서는 주로&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;경험에 의하여&lt;/li&gt;
-&lt;li&gt;누군가 또는 자바스크립트 생태계때문에&lt;/li&gt;
-&lt;li&gt;강의 혹은 책 에 의하여&lt;/li&gt;
-&lt;li&gt;회사 또는 멘토에 의하여&lt;/li&gt;
-&lt;li&gt;Lint 때문에&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;알 수도 있지만, 경험과 누군가, 책, Lint 때문에 최소화했지만, 해당 이유에 대하여 정확히는 생각해보지 않았었다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;전역공간이란?&lt;/h3&gt;
-&lt;p&gt;전역공간은 말그대로 전역, 최상위 이고,
-대체로 &lt;code class=&quot;language-text&quot;&gt;window&lt;/code&gt; 와 &lt;code class=&quot;language-text&quot;&gt;global&lt;/code&gt;로 나뉜다.
-이유는, 브라우저 환경에서는 window 가 최상위이고,
-node 환경에서는 global 이 최상위이다.&lt;/p&gt;
-&lt;h3&gt;이유에 대한 코드예시&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/da7e0621-40b3-4303-883d-32b1e17a1b67/image.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;우선 하나의 html 파일에서는 less&lt;em&gt;global1.js 와 less&lt;/em&gt;global2.js 를 가져오고 있다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/8652c1a9-3a85-496b-9f64-3eb35039dc29/image.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;global 변수를 선언 및 할당하여 콘솔을 찍어보니 출력이 된다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/f02ed25c-8b9d-4343-9acb-ca7eebf5e71c/image.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;여기서 문제가 첫번째 js file 에서 선언한 변수가 다른 file 에서도 접근이 가능하고, 또한 몽키패치로 인하여 window.~ 로도 접근이 가능해진다는 것이다. 핵심은 파일을 나눈다고 해도, scope 자체가 나누어지지 않는다는것이다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;결론&lt;/h3&gt;
-&lt;p&gt;전역공간 사용을 최소화하여 전역공간을 더럽히지 않아야한다.
-이유는, 어디서나 접근이 가능하고 스코프 분리시에 위험이 따른다.&lt;/p&gt;
-&lt;p&gt;이를 방지하기 위해,
-전역변수를 사용하지 않고 지역변수를 사용하거나,
-window.global 을 조작하지 않을 수 있고.
-const/let 을 사용하는 것만으로도 많은 문제가 해결된다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JS - var 를 지양하자]]></title><description><![CDATA[자바스크립트를 공부하면서 var 을 지양하고 const/let 을 지향하세요. 라는 말을 수도없이 들었다. 하지만 왜...? const/let 은 ES2015 에 나왔고, 이전에는 어쩔 수 없이 var…]]></description><link>https://hwani.dev/no-var/</link><guid isPermaLink="false">https://hwani.dev/no-var/</guid><pubDate>Fri, 19 Nov 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;자바스크립트를 공부하면서&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;var 을 지양하고 const/let 을 지향하세요.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;라는 말을 수도없이 들었다. 하지만 왜...?&lt;/p&gt;
-&lt;br/&gt;
-&lt;p&gt;const/let 은 ES2015 에 나왔고, 이전에는 어쩔 수 없이 var를 사용해야만 했다.&lt;/p&gt;
-&lt;p&gt;그렇다면 현시점에서 왜 &lt;code class=&quot;language-text&quot;&gt;const/let&lt;/code&gt; 을 사용해야하나의 핵심은&lt;/p&gt;
-&lt;h4&gt;var 는 함수 스코프,&lt;br/&gt; const/let 은 블록 단위 스코프를 가지기 때문.&lt;/h4&gt;
-&lt;p&gt;이라고 생각한다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h3&gt;var 사용 테스트&lt;/h3&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/f55540d2-8b6a-41ba-9ada-e42231a12716/image.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;같은 이름으로 선언 및 재할당까지 하고있음에도 에러가 나지 않고 가장 마지막에 할당한 value 가 나왔다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/e86ea9ea-41a2-4cb5-b1d6-16d27c31215f/image.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;이런식으로 순서를 바꾼다면? &lt;br/&gt; null 이 아닌 undefined 가 나오며 편하게 재할당까지 할 수 있고, 재할당을 넘어서 재선언(중복선언) 까지 계속할 수 있다.
-&lt;br/&gt; 이는 매우 편하다고 생각할 수 있는데, 지금의 코드는 겨우 9줄이지만, 코드가 많아진다면? 에 대해 고민해봐야 한다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/77693bf7-86d2-4c47-90b9-7bd66711a480/image.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;위와 같은 코드를 let 으로 바꾼다면 바로 에러가 난다.
-에러 내용을 해석해보면 &apos;이미 선언(Declared)이 되었다고 나온다.&apos;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;h3&gt;스코프 차이에 따른 예시&lt;/h3&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/2f13d7a1-5e75-4375-a272-0a34f869ef08/image.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;위 코드에서 기대효과는 지역만 바뀌기를 바랬는데,
-전역 공간까지 영향을 주었다. 이는 var 는 함수 단위 스코프인데 이건 함수가 아니기 때문이다. 그러므로, 이를 블럭 단위 스코프로 바꾸지 않는 이상 이러한 위험요소를 항상 가지고 있다는 뜻이다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/sh981013s/post/9458cfb4-ccba-4bb4-acb6-4823d5afe82c/image.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;이를 let 으로 바꾸어보았는데, 굉장히 안전하다.
-블럭 안에서 지역변수의 역활을 굉장히 잘 수행하였다. 그리고 전역공간에서는 합당한 값을 보여주었다.
-위처럼 사람이 생각할 만한 결과를 안전하게 생각하기위해 const/let 을 사용한다.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;a href=&quot;https://neilpatel.com/what-is-seo/&quot; target=&quot;_blank&quot;&gt;What Is SEO? (Learn How to Do It in 5 Minutes)&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
