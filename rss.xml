@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Jason Lee]]></title><description><![CDATA[Hello :) I'm Jason Lee and currently focusing on React.js.]]></description><link>https://sh981013s.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 08 Aug 2023 16:23:28 GMT</lastBuildDate><item><title><![CDATA[React 18 Automatic Batching: 렌더링 성능 향상의 무기]]></title><description><![CDATA[서론 React 1…]]></description><link>https://sh981013s.github.io/react-automatic-batching/</link><guid isPermaLink="false">https://sh981013s.github.io/react-automatic-batching/</guid><pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Jason Lee]]></title><description><![CDATA[Hello :) I'm Jason Lee and currently focusing on React.js.]]></description><link>https://sh981013s.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 08 Aug 2023 16:33:23 GMT</lastBuildDate><item><title><![CDATA[React 18 Automatic Batching: 렌더링 성능 향상의 무기]]></title><description><![CDATA[서론 React 1…]]></description><link>https://sh981013s.github.io/react-automatic-batching/</link><guid isPermaLink="false">https://sh981013s.github.io/react-automatic-batching/</guid><pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
 &lt;p&gt;React 18 에서는 &lt;code class=&quot;language-text&quot;&gt;Automatic Batching&lt;/code&gt; 이라는 기능이 추가되었다.  이 기능은 이전 버전의 &lt;code class=&quot;language-text&quot;&gt;Batching&lt;/code&gt; 보다 향상된 성능을 자랑한다.
 본고에서는 기본적으로 &lt;code class=&quot;language-text&quot;&gt;Batching&lt;/code&gt; 이란 무엇인지, 그리고 이 기능을 사용하여 어떠한 효과를 가져오는지 실제 예시를 통해 알아보도록 하겠다.&lt;/p&gt;
 &lt;hr&gt;
@@ -140,10 +140,10 @@ promises, setTimeout, native event handlers 에서는 batching이 일어나지 �
 &lt;p&gt;마지막으로, 간략하게나마 내일의 계획을 세운다. 나는 남들과의 비교는 관심이 없는 편이다. 늘 내일의 나 자신이 오늘보다 더 나아질 수 있도록 계획하고 그것을 실행에 옮기기 위해 노력한다. 어떻게 내일 하루라는 시간을 활용하여
 폭발적으로 성장할 수 있는 방법이 없을까 고민한다. 이를 위해 내일의 학습 목표를 설정하고, 어떤 주제를 학습할 것인지, 어떤 코드에 집중할 것인지 등을 결정한다.&lt;/p&gt;
 &lt;p&gt;위와같이, 나는 매일 밤 내 자신에게 질문하며, 정말로 잘 하고 있는지를 점검한다. 이는 나에게 자기 성찰의 시간을 주며, 나의 성장을 돕는다.
-그래서 나는 매일 밤 이 시간을 정성껏 준비하고 통과한다. 이를 통해 나는 내가 정말로 잘하고 있는지를 체크하고, 내일을 위한 계획을 세울 수 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[우테코 레벨1 회고]]></title><description><![CDATA[Intro 우아한테크코스 5기 FE 부엉이. 내 새로운 이름이자 현재의 나를 소개하는 말이 되었다. 하루하루가 꿈만 같았고 매 순간이 새로웠다. 본고에서는 우테코에서의 첫 두달간 레벨…]]></description><link>https://sh981013s.github.io/woowacourse-level-one/</link><guid isPermaLink="false">https://sh981013s.github.io/woowacourse-level-one/</guid><pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Intro&lt;/h2&gt;
+그래서 나는 매일 밤 이 시간을 정성껏 준비하고 통과한다. 이를 통해 나는 내가 정말로 잘하고 있는지를 체크하고, 내일을 위한 계획을 세울 수 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[우테코 레벨1 회고]]></title><description><![CDATA[서론 우아한테크코스 5기 FE 부엉이. 내 새로운 이름이자 현재의 나를 소개하는 말이 되었다. 하루하루가 꿈만 같았고 매 순간이 새로웠다. 본고에서는 우테코에서의 첫 두달간 레벨…]]></description><link>https://sh981013s.github.io/woowacourse-level-one/</link><guid isPermaLink="false">https://sh981013s.github.io/woowacourse-level-one/</guid><pubDate>Tue, 04 Apr 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;서론&lt;/h2&gt;
 &lt;p&gt;우아한테크코스 5기 FE 부엉이. 내 새로운 이름이자 현재의 나를 소개하는 말이 되었다. 하루하루가 꿈만 같았고 매 순간이 새로웠다. 본고에서는 우테코에서의 첫 두달간 레벨1 과정을 모두 마친 후에
 다시 그 기간을 돌아보며 회고를 진행하려 한다.&lt;/p&gt;
-&lt;h2&gt;Main&lt;/h2&gt;
+&lt;h2&gt;본론&lt;/h2&gt;
 &lt;h3&gt;인간관계의 중요성&lt;/h3&gt;
 &lt;p&gt;우테코에 처음 들어가서 놀란 점은 우테코는 소위 말하는 &lt;code class=&quot;language-text&quot;&gt;인싸&lt;/code&gt;들에게 맞춰진 시스템이라고 생각했다. 들어가기 전에는 대다수의 우테코 합격생들은 개발에 온 시간을 갈아넣은 극 내향형 사람들이지 않을까 하고 생각했다.
 하지만, 매일 아침 팀단위로 &lt;code class=&quot;language-text&quot;&gt;데일리 미팅&lt;/code&gt; 을 진행하고, 자체적인 &lt;code class=&quot;language-text&quot;&gt;연극&lt;/code&gt;을 하는가 하며, 심지어는 컴퓨터 한대를 놓고 두명이서 끝이 없는 의사소통을 하며 개발을 하는 &lt;code class=&quot;language-text&quot;&gt;페어 프로그래밍&lt;/code&gt; 을 시킨다. 즉, 내향형이 살아남기 힘든 시스템이다.
@@ -153,8 +153,19 @@ promises, setTimeout, native event handlers 에서는 batching이 일어나지 �
 나는 이미 나의 스타일이 고착 및 학습되어있음을 인정하고, 오히려 다른 이의 스타일을 배우기 위해 우선 경청하고 받아드리는 방식을 배웠다. 이러한 소프트 스킬에서의 깨달음을 적용하자, 실제 개발 실력적으로도 서로의 상호관계를 통해 성장이 같이 이루어짐을 체감하였다. &lt;/p&gt;
 &lt;p&gt;두서없이 말한 부분이 많지만, 함축적으로는 개발자에 소프트 스킬적인 역량은 필수적일수도 있다 생각이 바뀌게 되었고, 실제 우테코에서 두달동안 다른 이들과 소통을 통해 얻은 부분이 굉장히 많다고 생각했다. &lt;/p&gt;
 &lt;h3&gt;유연한 사고&lt;/h3&gt;
-&lt;p&gt;나 자시의 성향인지, 독학으로 개발을 시작해서 그런지 몰라도, 블로그 글이나 시&lt;/p&gt;
-&lt;h2&gt;Wrapping up&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[[JavaScript] 자바스크립트의 객체 wrapper에 대해 알아보자]]></title><description><![CDATA[Intro…]]></description><link>https://sh981013s.github.io/js-wrapping-object/</link><guid isPermaLink="false">https://sh981013s.github.io/js-wrapping-object/</guid><pubDate>Mon, 27 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Intro&lt;/h2&gt;
+&lt;p&gt;나 자신의 성향인지, 독학으로 개발을 시작해서 그런지 몰라도, 블로그 글이나 시 또는 소설을 읽을 때, 내가 읽는 글을 내가 이해할 수 있는 방식으로 읽는다. 이러한 방식은 내가 이해할 수 있는 방식으로만
+사고하고, 이해할 수 있는 방식으로만 개발을 한다는 것을 의미한다. 이러한 사고방식은 개발자로서의 성장을 방해하는 요소라고 생각한다.&lt;/p&gt;
+&lt;p&gt;우테코에서는 이러한 사고방식을 극복하기 위해 많은 노력을 했다. 먼저, 페어 프로그래밍을 통해 다른 이의 사고방식을 배우고, 이를 받아들이는 방식을 배웠다. 또한, 페어 프로그래밍을 통해 내가 이해할 수 있는 방식으로만 개발하는 것이 아닌,
+오히려 이해하지 못하는 타인의 방식을 최대한 받아드렸으며, 이를 의식적으로 적용해보고자 노력했다.&lt;/p&gt;
+&lt;h3&gt;새로운 기술의 습득&lt;/h3&gt;
+&lt;p&gt;우테코에서의 첫번째 레벨은 내가 생각했던 것과 다르게 흘러갔다. 소위 우테코 출신이라하면 기본적 역량이 있는 교육생들을 선발해 교육하기 때문에, 첫 레벨부터 리액트등 다양한 라이브러리와 프레임워크를 사용하는 미션이 나오지 않을까 생각했다.
+하지만 미션은 모두 어떻게 하면 자바스크립트를 더욱 깊고 극한까지 사용 할 수 있는지에 대해 초점이 맞추어져 있었고, 또한 지속적인 MVC 패턴을 사용하며 바닐라 자바스크립트에 대한 이해를 깊게 하도록 유도하였다.&lt;/p&gt;
+&lt;p&gt;지금 와서 생각하면 당연하다고 생각한다. 프론트엔드 기술 스택은 bleeding edge 라고 불리울만큼 가파르게 성장하고 변화하고 있고, 이에 대응하고 팔로우업 할 수 있는 개발자를 요구하는 시장에 니즈에 맞추어 기본을 갖춘 교육생들을 양성하고자 하는 것은 당연한 것이다.
+이로인해, 내가 언어적인 측면에서 어느 부분이 부족하고 몰랐던 부분들을 발견하며 심도 높은 학습을 할 수 있었다.&lt;/p&gt;
+&lt;h2&gt;결론&lt;/h2&gt;
+&lt;p&gt;우테코는 내가 생각했던 것과는 다르게 흘러갔다. 하지만, 이러한 흐름이 나에게는 맞는 것 같다. 내가 생각했던 것과는 다르게 흘러가는 것은 내가 생각했던 것이 부족하다는 것을 의미하기 때문이다.
+이러한 부족한 부분을 채우기 위해, 우테코는 나에게 많은 것을 준 것 같다.&lt;/p&gt;
+&lt;p&gt;우테코를 통해, 내가 어떤 부분이 부족하고, 어떤 부분을 더 공부해야하는지 알게 되었다. 또한, 이러한 부족한 부분을 채우기 위해 어떻게 공부해야하는지에 대한 방법을 배웠다. 이러한 부분은 내가 개발자로서 성장하기 위해 꼭 필요한 부분이라고 생각한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[JavaScript] 자바스크립트의 객체 wrapper에 대해 알아보자]]></title><description><![CDATA[Intro…]]></description><link>https://sh981013s.github.io/js-wrapping-object/</link><guid isPermaLink="false">https://sh981013s.github.io/js-wrapping-object/</guid><pubDate>Mon, 27 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Intro&lt;/h2&gt;
 &lt;p&gt;오늘 진행한 &lt;code class=&quot;language-text&quot;&gt;자바스크립트 스터디&lt;/code&gt; 에서 나눈 대화다.&lt;/p&gt;
 &lt;p&gt;🙋🏻 아래 코드는 생성자 함수로 생성한 &lt;code class=&quot;language-text&quot;&gt;String Object&lt;/code&gt; 이다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Number&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
